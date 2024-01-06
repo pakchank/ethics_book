@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "ethics_book"
+  author: "박찬경 외"
+  date: "12/8/2023"
+  chapters:
+    - index.qmd
+    #- intro.qmd
+    - fml.qmd
+    - xai.qmd
+    - references.qmd
+
+bibliography: ethics.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
