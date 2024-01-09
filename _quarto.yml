@@ -4,14 +4,23 @@ project:
 book:
   title: "인공지능 시대의 윤리 또는 윤리적 인공지능 - 기술, 정책, 철학"
   author: "박찬경 편"
-  date: "1/8/2024"
+  date: today
   chapters:
     - index.qmd
     #- intro.qmd
-    - labor.qmd
-    - tai.qmd
-    - fml.qmd
-    - xai.qmd
+    - part: first.qmd
+      chapters: 
+        - basic.qmd
+        - info.qmd
+        - post.qmd
+    - part: second.qmd
+      chapters:
+        - labor.qmd
+        - tai.qmd
+    - part: third.qmd
+      chapters:
+        - fml.qmd
+        - xai.qmd
     - references.qmd
 
 bibliography: ethics.bib
