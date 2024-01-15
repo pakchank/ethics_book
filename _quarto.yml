@@ -15,8 +15,12 @@ book:
         - post.qmd
     - part: second.qmd
       chapters:
-        - labor.qmd
         - tai.qmd
+        - ineq.qmd
+        - labor.qmd
+        - copy.qmd
+        - psych.qmd
+        
     - part: third.qmd
       chapters:
         - fml.qmd
