@@ -120,36 +120,313 @@ EU의 적극적인 움직임은 국제적으로 TAI 논의 확산을 가속화�
 : 표 1. 신뢰성 요건별 정의와 관련 속성 및 관련 키워드(출처: 한국정보통신기술협회, 2023 일부 수정).
 
 
-표 2. 신뢰성 요건 충족을 위한 AI 생애주기별 요구사항
-생애주기	요구사항	신뢰성 요건
-		다양성 	책임성	안전성	투명성
-1. 계획 및 설계	 1. AI 시스템에 대한 위험관리 계획 및 수행	　	O	　	O
-	2. AI 거버넌스 체계 구성	O	O	O	O
-	3. AI 시스템의 신뢰성 테스트 계획 수립	　	　	O	O
-2. 데이터 
-수집 및 처리	 3. 데이터의 활용을 위한 상세 정보 제공 	　	O	　	O
-	 4. 데이터 강건성 확보를 위한 이상(Abnormal) 데이터 점검 	　	　	O	　
-	 5. 수집 및 가공된 학습 데이터의 편향 제거 	O	O	　	O
-3. AI 모델 
-개발	 6. 오픈소스 라이브러리의 보안성 및 호환성 확보 	　	O	O	　
-	 7. AI 모델의 편향 제거 	O	　	　	　
-	 8. AI 모델 공격에 대한 방어 대책 수립	　	　	O	　
-	 9. AI 모델 명세 및 출력 결과에 대한 설명 제공 	　	O	　	O
-4. 시스템 구현	11. AI 시스템 구현 시 발생 가능한 편향 제거 	O	　	　	　
-	12. AI 시스템의 안전 모드 구현 	　	O	O	O
-	13. AI 시스템의 설명에 대한 사용자의 이해도 제고 	　	　	　	O
-5. 운영 및 
-모니터링	14. AI 시스템의 추적가능성 확보 	　	　	O	O
-	15. 서비스 제공 범위 및 상호작용 대상에 대한 설명 제공	　	O	　	O
-출처: 한국정보통신기술협회(2023), 일부 수정.
+
+
+```{=html}
+<table>
+ <tr>
+  <td nowrap rowspan=2 valign=top>
+    생애주기
+  </td>
+  <td nowrap rowspan=2 valign=top>
+    요구사항
+  </td>
+  <td nowrap colspan=4 valign=top>
+    신뢰성 요건
+  </td>
+ </tr>
+ <tr>
+  <td nowrap valign=top>
+  다양성 
+  </td>
+  <td nowrap valign=top>
+  책임성
+  </td>
+  <td nowrap valign=top>
+  안전성
+  </td>
+  <td nowrap valign=top>
+  투명성
+  </td>
+ </tr>
+
+ <tr>
+  <td rowspan=3 valign=top>
+  1. 계획 및 설계
+  </td>
+  <td valign=top>
+    1. AI 시스템에 대한 위험관리 계획 및 수행
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+ </tr>
+ 
+  <tr>
+  <td nowrap valign=top>
+    2. 거버넌스 체계 구성
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+ </tr>
+  
+  <tr>
+  <td nowrap valign=top>
+    3. AI 시스템의 신뢰성 테스트 계획 수립
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+ </tr>
+
+ <tr>
+  <td rowspan=3 valign=top>
+  2. 데이터 수집 및 처리
+  </td>
+  <td valign=top>
+    4. 데이터의 활용을 위한 상세 정보 제공 
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+ </tr>
+ 
+  <tr>
+  <td nowrap valign=top>
+    5. 데이터 강건성 확보를 위한 이상(Abnormal) 데이터 점검 
+  </td>
+  <td nowrap valign=top>
+  
+  </td>
+  <td nowrap valign=top>
+  
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  
+  </td>
+ </tr>
+  
+  <tr>
+  <td nowrap valign=top>
+    6. 수집 및 가공된 학습 데이터의 편향 제거 
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+ </tr>
+ 
+  <tr>
+  <td rowspan=4 valign=top>
+  3. AI 모델 개발
+  </td>
+  <td valign=top>
+    7. 오픈소스 라이브러리의 보안성 및 호환성 확보 
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+
+  </td>
+ </tr>
+ 
+  <tr>
+  <td nowrap valign=top>
+    8. AI 모델의 편향 제거
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  
+  </td>
+  <td nowrap valign=top>
+  
+  </td>
+  <td nowrap valign=top>
+  
+  </td>
+ </tr>
+  
+  <tr>
+  <td nowrap valign=top>
+    9. AI 모델 공격에 대한 방어 대책 수립
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  
+  </td>
+ </tr>
+ 
+   <tr>
+  <td nowrap valign=top>
+    10. AI 모델 명세 및 출력 결과에 대한 설명 제공 
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+ </tr>
+ 
+  <tr>
+  <td rowspan=3 valign=top>
+  4. 시스템 구현
+  </td>
+  <td valign=top>
+    11. AI 시스템 구현 시 발생 가능한 편향 제거
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  
+  </td>
+ </tr>
+ 
+  <tr>
+  <td nowrap valign=top>
+    12. AI 시스템의 안전 모드 구현 
+  </td>
+  <td nowrap valign=top>
+
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+ </tr>
+  
+  <tr>
+  <td nowrap valign=top>
+    13. AI 시스템의 설명에 대한 사용자의 이해도 제고 
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+ </tr>
+ 
+  <tr>
+  <td rowspan=2 valign=top>
+  5. 운영 및 모니터링
+  </td>
+  <td valign=top>
+    14. AI 시스템의 추적가능성 확보 
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+ </tr>
+ 
+  <tr>
+  <td nowrap valign=top>
+    15. 서비스 제공 범위 및 상호작용 대상에 대한 설명 제공
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+  <td nowrap valign=top>
+  </td>
+  <td nowrap valign=top>
+  O
+  </td>
+ </tr>
+
+</table>  
+```
+:표 2. 신뢰성 요건 충족을 위한 AI 생애주기별 요구사항 (출처: 한국정보통신기술협회(2023), 일부 수정)
 	
 요구사항은 다시 대분류 34개, 소분류 67개의 2단계의 체크리스트로 세분화했다. <표 3>은 생애주기 중 AI 모델 개발 단계의 요구사항 및 대분류 수준의 체크리스트의 예이다. 
 
 소분류 수준의 체크리스트는 매우 구체적인 기술적 방안을 담고 있다. 예컨대 요구사항 9의 ‘AI 모델 공격에 대한 방어 대책 수립’과 같은 내용은 일종의 AI 시스템의 모델을 훔쳐가는 모델 추출 공격(model extraction attack)에 대한 질의(query) 횟수 제한과 같은 기술적 방어 기법이나, AI 시스템에 적용된 모델을 속이는 모델 회피 공격(model evasion attack)에 대한 적대적 훈련(adversarial training)과 같은 방어 기법의 적용 여부를 따진다.
 
-표 3 신뢰할 수 있는 인공지능 모델 개발 단계의 요구사항과 체크리스트
- 
-출처: 한국정보통신기술협회(2023)
+![표 3 신뢰할 수 있는 인공지능 모델 개발 단계의 요구사항과 체크리스트 (출처: 한국정보통신기술협회(2023))](pics/table.png)
 
 ## 저널리즘 분야에서 신뢰할 수 있는 인공지능의 함의
 
