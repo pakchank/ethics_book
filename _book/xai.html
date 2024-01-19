@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.525">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,13 +47,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -62,7 +56,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -81,12 +74,12 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./third.html">3부: 인공지능 윤리의 기술적 접근</a></li><li class="breadcrumb-item"><a href="./xai.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">설명 가능한 알고리즘</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./third.html">3부: 인공지능 윤리의 기술적 접근</a></li><li class="breadcrumb-item"><a href="./xai.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">설명 가능한 알고리즘</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -96,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">인공지능 시대의 윤리 또는 윤리적 인공지능 - 기술, 정책, 철학</a> 
@@ -217,14 +210,14 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#설명이-쉬운-알고리즘." id="toc-설명이-쉬운-알고리즘." class="nav-link active" data-scroll-target="#설명이-쉬운-알고리즘."><span class="header-section-number">10.1</span> 설명이 쉬운 알고리즘.</a></li>
+  <li><a href="#설명하기-쉬운-알고리즘" id="toc-설명하기-쉬운-알고리즘" class="nav-link active" data-scroll-target="#설명하기-쉬운-알고리즘"><span class="header-section-number">10.1</span> 설명하기 쉬운 알고리즘</a></li>
   <li><a href="#설명-가는성을-높이는-기술-xai" id="toc-설명-가는성을-높이는-기술-xai" class="nav-link" data-scroll-target="#설명-가는성을-높이는-기술-xai"><span class="header-section-number">10.2</span> 설명 가는성을 높이는 기술: XAI</a></li>
   <li><a href="#대표적인-xai-기술" id="toc-대표적인-xai-기술" class="nav-link" data-scroll-target="#대표적인-xai-기술"><span class="header-section-number">10.3</span> 대표적인 XAI 기술</a>
   <ul class="collapse">
@@ -239,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./third.html">3부: 인공지능 윤리의 기술적 접근</a></li><li class="breadcrumb-item"><a href="./xai.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">설명 가능한 알고리즘</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">설명 가능한 알고리즘</span></h1>
 </div>
@@ -254,9 +247,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
-
 </header>
-
 
 <p>박찬경 (경북대학교)</p>
 <p>인간이 많은 결정을 인공지능의 자동적인 판단에 더 많이 의존하게 될 수록, 해당 판단이 문제를 발생시켰을 때 그 도덕적, 법적 책임을 어떻게 분배할 것인가라는 문제가 첨예해진다. 최근의 이론적 논의에서는 인간과 우열을 나눌 수 없는 행위자로서 인공지능 스스로의 권리와 책임에 대해 논의하기도 하지만(3장 참조), EU의 신뢰할만한 인공지능 프레임워크(4장 참조)와 같은 제도의 영역에서 여전히 주류를 차지하고 있는 현실주의적 접근에서는 인공지능을 설계하고, 배포하며, 운용하는 인간에게 시스템 실패의 책임성을 부과하는 경우가 많다.</p>
@@ -265,14 +256,14 @@ ul.task-list li input[type="checkbox"] {
 <p>안타깝게도, 인공지능의 실패를 ‘인식’하는 것은 도덕 판단 만큼이나 어려운 문제다. 물론, 인간이 내린 판단이 실패에 직면하였을 때, 문제를 설명하는 것은 이미 쉬운 일이 아니다. 예컨대, 기업의 인사 과정에서 특정 성별이나 인종에 대해 체계적인 불평등이 있었다면, 그것이 제도의 헛점 때문인지, 심사자 개개인의 편향 때문인지, 사회에 팽배한 불평등의 단순한 반영인지 확정하는 것은 매우 어려운 일일 것이며, 이러한 설명은 윤리적, 법적 판단의 근거가 된다. 메타(Meta)와 같이 소셜미디어를 운영하는 기업이 혐오 콘텐츠를 제한하는 판단을 인공지능에게 떠넘기는 것은 그러한 판단이 비판에 직면하였을 때, 그 판단이 인공지능에 ’기술적으로’ 이루어졌다는 ’설명’을 제시함으로써 책임을 회피하고자 하는 의도라고 할 수 있다. 이에 대해서 가장 먼저, 인공지능이 판단할 때 인간의 책임은 사라지는가라는 비판이 가능하다. 그러나, 그에 앞서 인공지능은 더 강력해지기 위해 더 설명하기 어려워져야만 하는 경향성을 가지고 있다는 문제가 있다. 즉, 인공지능이 우리 사회에 유용하면 유용할 수록, 인공지능의 판단을 설명하기도, 따라서 그에 대한 윤리적 판단을 하기도 점점 어려워진다는 딜레마가 존재하는 것이다.</p>
 <p>요컨대, 성능과 설명가능성 사이의 딜레마가 존재하며, 이를 해결하는 것은 인공지능이 사회 체계 안에 실제로 수용될 수 있는가, 얼마나 빠르고 깊이 수용될 것인가를 결정하는 문제라고 할 수 있다. 따라서, 인공지능을 연구하는 공학자에게 성능이 높은 인공지능의 판단을 어떻게 설명할 수 있을 것인가 하는 문제는 인공지능의 활용 가능성을 높이기 위해 반드시 풀어야 할 문제라고 할 수 있으며, 이 문제를 해결하기 위한 여러 공학적 노력들을 ‘설명가능한 인공지능’ 또는 XAI (Explainable Artificial Intelligence)라고 한다.</p>
 <p>이 장에서는 인공지능의 성능과 설명가능성 사이의 딜레마와, XAI 연구가 지금까지 내어놓은 해법들의 직관, 그리고 해당 해법들과 책임의 분배에 관한 규제들 사이의 연관성에 대해 알아볼 것이다.</p>
-<section id="설명이-쉬운-알고리즘." class="level2" data-number="10.1">
-<h2 data-number="10.1" class="anchored" data-anchor-id="설명이-쉬운-알고리즘."><span class="header-section-number">10.1</span> 설명이 쉬운 알고리즘.</h2>
+<section id="설명하기-쉬운-알고리즘" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="설명하기-쉬운-알고리즘"><span class="header-section-number">10.1</span> 설명하기 쉬운 알고리즘</h2>
 <p>먼저, 인공지능의 근간이 되는 기계학습, 그 중에서도 지도학습(supervised learning) 방법은 분류(classification) 문제에 대해 복습해보도록 하자. 분류의 문제는 어떠한 특성(feature)을 이용해 타겟(target)을 예측하는 문제를 의미한다. 기계학습을 처음 배울 때 하는 이미지 특성을 이용해 개와 고양이를 자동으로 나누는 알고리즘, 손글씨 이미지를 이용해 숫자를 파악하는 알고리즘 같은 것들이 모두 분류 알고리즘이다. 설명의 편의를 위해, 여기서는 가장 간단한 알고리즘을 생각해보자. 즉, 두 가지의 특성을 이용해 0 또는 1의 판단을 하는 알고리즘이다. 첫번째 특성을 <span class="math inline">\(X_1\)</span>, 두번째 특성을 <span class="math inline">\(X_2\)</span>라고 하고 이들 각각은 연속적인 숫자를 그 값으로 가질 수 있다고 가정할 것이다. 마지막으로, 예측하고자 하는 타겟, <span class="math inline">\(Y\)</span>는 0 또는 1의 값을 갖는데, 여기서 우리가 생각하는 단순한 분류 알고리즘은 이 타겟에 대한 예측, <span class="math inline">\(R\)</span>을 만들어낸다. 즉, 실제로 타겟이 <span class="math inline">\(Y=1\)</span>일 때, 예측 역시 <span class="math inline">\(R=1\)</span>, <span class="math inline">\(Y=0\)</span>일 때 예측 역시 <span class="math inline">\(R=0\)</span>이라면 좋은 분류알고리즘이라고 할 수 있을 것이다. 비근한 예로, 소득(<span class="math inline">\(X_1\)</span>)과 신용점수(<span class="math inline">\(X_2\)</span>)를 이용해 대출을 상환할 수 있는지(<span class="math inline">\(Y=1\)</span>), 그렇지 않은지(<span class="math inline">\(Y=0\)</span>)를 판단하는 알고리즘을 만드는 상황을 생각해 볼 수 있다.</p>
 <p>이러한 경우에 적용할 수 있는 가장 간단한 분류 알고리즘 중 하나로 이야기되는 것 중 하나는 ’로지스틱 회귀(Logistic Regression)’라는 방식이다. 두 개의 특성, <span class="math inline">\(X_1\)</span>, <span class="math inline">\(X_2\)</span>와 예측치 <span class="math inline">\(Y\)</span>가 0 혹은 1의 값을 갖는 우리의 분류 문제를 해결하기 위해 로지스틱 회귀 모형을 적용하면, 그 결과는 다음 그림과 같이 시각화할 수 있다.</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="pics/logit.png" class="img-fluid figure-img"></p>
-<figcaption>로지스틱 회귀를 이용한 분류</figcaption>
+<figcaption class="figure-caption">로지스틱 회귀를 이용한 분류</figcaption>
 </figure>
 </div>
 <p>즉, 위의 맥락에서 좋은 로지스틱 회귀 알고리즘이라 함은, 첫번쨰 특성과 두 번째 특성을 통해 2차원 평면 위에 표현된 데이터를 <span class="math inline">\(Y=1\)</span> (+로 표현됨)과 <span class="math inline">\(Y=0\)</span>(-으로 표현됨)을 가장 정확하게 구분하는 직선 하나를 긋는 문제이다. 이러한 모형은 매우 단순해서 사람들에게 쉽게 ’설명’할 수 있을 것이다. 즉, 첫 번째 특성과 두 번째 특성의 값이 모두 클 수록 <span class="math inline">\(Y=1\)</span>로 예측될 가능성이 크다. 자동 대출 승인의 예를 다시 사용하자면, 소득과 신용점수가 클 수록, 대출을 갚을 것이라고 예측할 가능성이 크다(즉, 자동대출승인이 될 가능성이 크다).</p>
@@ -280,21 +271,26 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="math display">\[
 P(y=1) = \frac{1}{1+ e^{-(\beta_0 + \beta_1 X_1 + \beta_2 X_2)}}
 \]</span> 복잡해 보이지만, 위의 수식에서 <span class="math inline">\(-\beta_1/\beta_2\)</span>가 위 그래프의 기울기에 해당한다는 아주 단순한 직관을 가지고 있다. 따라서, 로지스틱 회귀는 쉽게 `설명 가능한’ 모형에 속한다고 할 수 있다.</p>
-<p>그런데, 이런 간단한 분류 방법이 늘 현실적이지는 않을 것이다. 가장 먼저, 저 경계선이 곡선인 경우도 허용하고 싶을 것이다. 다음과 같이… <strong>그림</strong></p>
-<p>또, 다음과 같이 1로 예측되는 영역이 분리되어 있는 경우도 있을 수 있다.</p>
-<p><strong>그림</strong></p>
-<p>이는 로지스틱 회귀 분석과 같은 방법으로는 불가능하고, 이를 조금 더 복잡한 함수에 집어넣는다.</p>
-<p><strong>수식</strong></p>
-<p>이러한 방식 중 하나가 바로 우리가 잘 알고 있는 ’인공신경망(Artificial Neural Networks; ANN)이다. 이제 저 안에 들어가 있는 모수는 기울기라는 단순한 해석을 가지지 않는다. 정확히 말하면, 저 모수를 설명할 방법이 없다! 이를 blackboxedness라고 한다.</p>
-<p>결론은 더 나은 예측을 위한 모형의 ’유연성(flexibility)’를 얻기 위해 모형은 더 복잡해져야 하며, 그 댓가로 설명가능성이 떨어진다는 것이다. 즉, 모형의 예측력과 설명가능성 사이에는 트레이드오프 관계가 성리하는 것이다!</p>
-<p>분류 알고리즘 중에는 로지스틱 회귀 말고도 본질적으로 설명하기 쉬운 모형들이 있다. 예컨대 의사결정 나무 같은 것이 그렇다.</p>
-<p><strong>Decision Tree 그림</strong></p>
-<p>의사결정 나무 같은 것은 에전 인공지능 시대의 근간 이기도 했다. 그러나 현대적인 인공적인 인공지능에 사용하는 분류 알고리즘은 이를 믹스한 것. Random Forest같은 경우… 따라서 다음과 같은 트레이드 오프를 보일 수 있다.</p>
-<p><strong>일본 트레이드 오프 그림</strong></p>
+<p>그런데, 이런 간단한 분류 방법이 늘 현실적이지는 않다. 다음과 같은 <span class="math inline">\(Y\)</span>의 분포에서는 0과 1을 분류하는 경계선이 곡선인 편이 훨씬 더 좋은 예측 성능을 낼 것이기 때문이다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pics/nonlinear.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">비선형 분류문제</figcaption>
+</figure>
+</div>
+<p>이러한 분류 알고리즘은 비선형성(nonlinearity)을 갖는다고 하며, 특히 이미지 인식을 이용한 분류, 텍스트의 분류와 같이 일상에서 인공지능이 다루어야 하는 데이터의 처리는 대부분 비선형 분류 알고리즘을 바탕으로 한다. 이렇게 분류 알고리즘에 비선형성을 허용하기 위해서는 로지스틱 회귀 모형의 수식보다 훨씬 더 복잡한 수식을 바탕으로 한 알고리즘이 필요할 것이다. 그런 경우에는 모형의 모수(parameter; 로지스틱 회귀 모형에서 <span class="math inline">\(\beta_0\)</span>, <span class="math inline">\(\beta_1\)</span>, <span class="math inline">\(\beta_2\)</span>와 같이 알고리즘이 학습(learning)을 통해 찾아내는 숫자들)의 수도 훨씬 많고, 로지스틱 회귀 모형의 모수와 같이 직관적인 의미를 갖지 않는다. 즉, 이러한 경우에는 분류 알고리즘이 학습한 결과를 확인한다고 하더라도, 그것의 직관적 의미를 인간이 이해할 수는 없다는 것이다. 이럴 때, 분류 알고리즘, 더 일반적으로 기계학습 모형이 블랙박스와 같은 성격(blackboxedness)를 갖는다고 말한다. 인공지능, 빅데이터의 사용과 관련하여 가장 자주 언그되는 분류 알고리즘이라고 할 수 있는 인공신경망(artificial neural network; ANN)이나 그에 그반한 딥러닝 모형들 역시 블랙박스와 같은 성격을 갖는다. 즉, 해당 알고리즘들은 모형의 복잡도를 상승시켜 더 높은 유연성을 허용하고, 그를 통해 모형의 성능을 높일 수 있었는데, 그 결과 ‘설명할 수 없는(unexplainable)’ 알고리즘이 되었다는 것이다.</p>
+<p>결국, 인공지능 발전의 바탕에는 하나의 딜레마가 놓여있다. 모형의 성능과 설명가능성을 동시에 취할 수 없고, 하나를 얻으면 하나를 포기해야 한다는 것이다. 이러한 딜레마를 다른 말로는 예측력과 설명가능성 사이의 트레이드오프(trade-off) 관계라고도 한다. 이를 그림으로 표현하면 다음과 같다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pics\tradeoff.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">복잡성과 설명가능성 간의 트레이드오프</figcaption>
+</figure>
+</div>
+<p>선형/로지스틱 회귀 모형 이외에도, 비교적 설명 가능성이 높은 분류 알고리즘으로 규칙 기반(Rule-Based) 알고리즘, 의사결정 나무(Decision Tree). 이러한 알고리즘은 인공지능 개발 초창기에는 중요하게 다루어졌으나, 부스팅, 딥러닝과 같이 복잡한 모형이 등장한 후로는 상용화된 인공지능에서 사용되고 있다고 보기는 어렵다(물론, 여전히 많은 복잡한 알고리즘들이 이와 같이 간단한 모형에 기반을 두고 있다). 따라서, 최근 사용되는 대부분의 알고리즘은 설명 가능성이 낮은 알고리즘이라고 할 수 있다.</p>
 </section>
 <section id="설명-가는성을-높이는-기술-xai" class="level2" data-number="10.2">
 <h2 data-number="10.2" class="anchored" data-anchor-id="설명-가는성을-높이는-기술-xai"><span class="header-section-number">10.2</span> 설명 가는성을 높이는 기술: XAI</h2>
-<p>그렇다면, 예측력을 위해 우리는 설명을 포기해야 하는가? 그렇지 않다. 많은 인공지능 연구자들은 예측력과 복잡도를 보존하면서도 여전히 설명하기 위한 기술들을 개발하고 있다. 여기서 핵심적인 생각은, 에측을 위한 모형을 그대로 둔 채로, ’설명을 위한 장치’를 개발하는 것이다. ’설명가능한 인공지능(eXplainable AI; XAI)’라고 부르는 영역에서 활발하게 논의되고 개발되고 있는 모형들은 그 자체로 설명이 쉬운 기계학습 모형보다는, 예측모형에 더할 수 있는 설명 장치들이라고 할 수 있다.</p>
+<p>그렇다면, 예측력을 위해 우리는 설명을 포기해야 하는가? 그렇지는 않다. 많은 인공지능 연구자들은 예측력과 복잡도를 보존하면서도 여전히 설명하기 위한 기술들을 개발하고 있다. 여기서 핵심적인 생각은, 에측을 위한 모형을 그대로 둔 채로, ’설명을 위한 장치’를 개발하는 것이다. ’설명가능한 인공지능(eXplainable AI; XAI)’라고 부르는 영역에서 활발하게 논의되고 개발되고 있는 모형들은 그 자체로 설명이 쉬운 기계학습 모형보다는, 예측모형에 더할 수 있는 설명 장치들이라고 할 수 있다.</p>
 <p>이러한 설명 장치들도 몇 가지 유형으로 구분할 수 있다. 그 첫번째는 모형의존형(model-specific) 기술과 모형불문형(model-agnostic) 기술의 구분이다. 모형의존형 기술은 인공지능에 사용되는 예측 모형이 특수한 기술을 따를 때만 작동할 수 있는 모형 설명 기술이다. 예컨대, 영상/이미지 관련 인공지능에 자주 사용되는 CNN (Convolutional Neural Network)에서 작동하는 GRAD-CAM, Score CAM, Grad-CAM++ 등의 기술이 그것이다. 모형의존형 기술은 주예측모형의 작동 방식을 응용하여 만들어진 것이므로, 모형-맞춤형 설명이 가능하다는 장점이 있다. 그러나 이러한 모형들은 예측모형에 바로 응용할 수 없을 뿐만 아니라, 주모형과 직접 연동되어 작동하는 경우가 많아, 주모형의 속도를 느리게 하는 단점을 갖는 경우가 많다. 반면, 모형불문형 기술은 주모형과 독립적으로 설계되고 작동하기 때문에 범용성이 높고, 주모형의 퍼포먼스를 하락시키지 않는 경우가 많다. 이 때문에 최근이 개발 경향을 범용성 높은 모형불문형 기술을 개발하면서 설명력을 가능한 모형의존형 기술에 근접시키도록 하는 방향으로 발전하고 있다. 따라서, 이 장에서는 모형불문형 기술에 초점을 맞추어 기술할 것이다.</p>
 <p>또 다른 구분으로는 전역적(global) 설명과 국소적(local) 설명 기술의 구분이 있다. 전역적 설명은 이용자가 복잡한 모형 전체의 구조를 이해할 수 있도록 단순화하는 방식을 의미하는 반면, 국소적 설명은 인공지능에 의해 내려진 특정한 판단의 이유를 제공하는 방식을 의미한다. 기게학습 모형을 이용하면서 이를 유지, 개선하기 위한 운용 목적이나, 보안상의 문제를 발생시킬 수 있는 외부 공격에 대해 강건한 모형을 만들기 위한 모니커링 목적으로는 전역적 설명이 자주 사용된다. 그에 반해, 인공지능이 내린 판단에 영향을 받는 일반 이용자들이, 예컨대 자동화된 대출 결정을 받거나, 국경에서 보안 검색의 대상이 되었을 때, 그러한 결정에 대한 설명을 요구하는 경우라면 모형 전체에 대한 설명은 일반인들에게 그다지 유용하지도 않을 것이며, 더 나아가 주어진 설명이 ’이해가능(interpretable)’하지 않을 수도 있다. 이러한 경우에는 특정 결정에 대한 국소적 설명이 더욱 유용할 수 있을 것이다.</p>
 </section>
@@ -345,27 +341,27 @@ P(y=1) = \frac{1}{1+ e^{-(\beta_0 + \beta_1 X_1 + \beta_2 X_2)}}
 <section id="전역적-설명" class="level3" data-number="10.3.1">
 <h3 data-number="10.3.1" class="anchored" data-anchor-id="전역적-설명"><span class="header-section-number">10.3.1</span> 전역적 설명</h3>
 <p>여기서는 Permutation Importance 방식과 Global Surrogate에 대해서 이야기 해 보도록 하겠다. Permutation Importance는 많은 전역적 설명 방식과 유사하게, 예측 결과를 도출하기 위한 근거가 되는 특성(feature)들의 상대적 중요도(importance)를 계산하는 것을 목표로 한다. 설명 방식은 다음과 같다. 가장 먼저, 중요도를 측정하기 위한 특성을 먼저 선택한다. 그 다음 다른 특성의 값들은 주어진 데이터 그대로 둔 채, 선택된 특성값만을 무작위로 재배열한다. 이를 그림으로 표현하면 다음과 같다.</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="pics/permutation.png" class="img-fluid figure-img"></p>
-<figcaption>무작위 배열의 예</figcaption>
+<figcaption class="figure-caption">무작위 배열의 예</figcaption>
 </figure>
 </div>
 <p>모든 다른 특징량은 1, 2, 3 등 원데이터에 주어진대로 배열되어 있지만, 중요도를 측정하고자 하는 특징량 E는 무작위 배열되어 10, 94, 48와 같이 규칙을 갖지 않는 순서로 재배열되어 있다. 이제 이렇게 (특징량 E만) 변형된 데이터를 이용해 설명하고자 하는 모형을 추정한다. 모든 모형 추정은 ‘오류율’을 생산하는데, 이렇게 변형된 데이터를 바탕으로 한 모형의 오류율과, 변형하지 않은 원 데이터를 바탕으로 추정한 같은 모형의 오류율을 비교해보면 전자의 오류율이 클 것이다. 이는 위의 예에서 특징량E에 포함된 예측에 사용되어야 할 유용한 정보를 무작위 배열을 통해 삭제한 것이나 다름 없기 때문에, 더 적은 정보(변형된 데이터)를 가지고 추정한 모형이 더 많은 정보(원데이터)를 이용해 추정한 모형보다 정확하지 않을 것이라는 것을 생각해보면 납득이 갈 것이다. 이제 변형 데이터로부터 도출된 오류율과 원데이터로부터 도출된 오류율의 비율, 즉, 특정 특징량을 무작위 배열함으로써 ’증간한 오류의 양이 얼마인가’를 측정하면, 반대로 그것은 해당 특성이 얼마나 예측에서 중요한 역할을 하고있었는가를 나타내는 지표가 된다. 이러한 과정을 하나의 특성(위의 예에서는 ’특징량 E’) 뿐만 아니라, 모든 특성에 대해 반복하면, 각 특성의 중요도를 파악할 수 있게 되는 것이다.</p>
 <p>이러한 과정을 통해, 다음과 같이 각 특성의 중요도를 시각화할 수 있다.</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="pics/importance.jpg" class="img-fluid figure-img"></p>
-<figcaption>특성별 중요도 표현</figcaption>
+<figcaption class="figure-caption">특성별 중요도 표현</figcaption>
 </figure>
 </div>
 <p>위와 같은 시각화는 각각의 특성이 해당 모형의 예측에서 얼마만큼 중요한 역할을 하는지를 표현해주기에, 예측 모형이 아무리 복잡하더라도 그 모형이 작동하는 방식을 대체로 이해하는데 도움을 준다. 또한, 위의 중요도 게산 방식은 어떠한 예측 모형을 사용하는가와 전혀 관계없이 수행할 수 있다는 점에서, 모형불문형 기술이라고 할 수 있다. 더 나아가, 중요도 계산에 이용하는 오류율은 사용하는 모형, 데이터와 관계 없이 같은 단위(unit)를 가지기 때문에, 예측 모형 간의 비교 분석을 수행하는데에도 유용하다.</p>
 <p>물론 이러한 전역적 설명 방식은 고유한 한계를 갖는데, 다수의 다른 특성들 사이의 예측에 있어서의 의존관계를 파악하는데 도움을 주지 못하며, 각 특성이 특정 영역에서는 큰 중요도를 가지다가 다른 영역에서는 중요도가 떨어지는 등 ‘비선형적’ 중요도를 갖는 경우에도 이를 파악하는데 도움을 주지 못한다. 전역적 설명 방식은 본질적으로 복잡한 모형 전체를 단순화하여 표현하는 접근방식이기에 피하기 어려운 단점이다.</p>
 <p>또 다른 전역적 설명방식으로 Global Surrogate을 들 수 있다. 여기서 Surrogate이라고 함은 대리 모형, 즉, 복잡한 모형에 대한 조금 더 단순한 근사 모형을 의미한다. Global Surrogate이 사용하는 근사모형은 특정한 모형으로 미리 정해져 있지 않고, 근사모형의 이용자가 쉽게 이해할 수 있다고 믿는 한, 어떤 모형이라도 가능하다. Global Surrogate의 개략적인 아이디어를 그림으로 표현하면 다음과 같다.</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="pics/global.png" class="img-fluid figure-img"></p>
-<figcaption>Global Surrogate의 간단한 예</figcaption>
+<figcaption class="figure-caption">Global Surrogate의 간단한 예</figcaption>
 </figure>
 </div>
 <p>즉, 실제 모형은 예측의 정확도를 높이기 위해 0과 1을 구분하는 구불구불한 곡선이라면, 이를 이해하는 것이 쉽지 않으므로, 가능한 비슷한 예측결과를 만들어 낼 수 있는 근사모형은 선형 모형을 추정하여, 대략적인 설명을 한다는 아이디어이다. 물론, 선형 모형일 필요는 없고, 의사결정 트리와 같은 다른 유형의 이해가능성이 높은 모형을 이용할 수 있다.</p>
@@ -376,10 +372,10 @@ P(y=1) = \frac{1}{1+ e^{-(\beta_0 + \beta_1 X_1 + \beta_2 X_2)}}
 <h3 data-number="10.3.2" class="anchored" data-anchor-id="국소적-설명"><span class="header-section-number">10.3.2</span> 국소적 설명</h3>
 <p>앞서 설명한 바와 같이 국소적 설명은 예측 모형 전체를 일반 사용자에게 이해시키기 위한 목적이라기 보다는, 인공지능이 해당 사용자에게 부여한 특정 예측, 또는 결정이 이루어진 이유를 제공하기 위한 목적을 가지고 있다. 이미 논의한 바와 같이, 일반 이용자가 쉽게 이해할 수 있을 정도로 전역적 설명 기술을 적용하기 위해서는 복잡한 모형을 지나치게 단순화해야 한다는 문제점이 있으므로, 해당 이용자가 관심을 갖는 특수한 사안으로 설명의 범위를 국한하는 국소적 설명 방식이 최근 각광받고 있다. 또한, 국소적 설명 방식은 기업의 특정 결정에 대해 설명을 요구할 권리를 보장하는 기존의 소비자 보호 법안의 취지에 잘 부합한다는 장점이 있다. 이 장에서는 최근 각광받는 국소적 설명 기술인 LIME (Local Interpretable Model-agnostic Explanations)와 반사실적(Counterfactual) 설명 방식에 대해 간단히 논의해 보도록 할 것이다.</p>
 <p>LIME은 Global Surrogate 방식과 유사하게 대리/근사 모형(Surrogat)을 이용한 설명 기술이다. 그러나 Global Surrogate과의 결정적인 차이는, 근사 모형을 특정 예측치 근방(locality 또는 neighborhood)에서 생성한다는 것이다. 이 점을 더 쉽게 이해하기 위해서 다음과 같은 분류 문제와 근사 모형을 생각해 보자.</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="pics/lime.png" class="img-fluid figure-img"></p>
-<figcaption>국소적 근사모형</figcaption>
+<figcaption class="figure-caption">국소적 근사모형</figcaption>
 </figure>
 </div>
 <p>여기서 회색과 붉은색으로 표시된 영역은 예측을 위한 기계학습 모형(주모형)이 -1(회색) 또는 +1(붉은색)으로 예측하는 구간을 의미한다. 두 영역의 경계를 보면 알 수 있듯이 그 경계는 매우 비선형적이다. 이러한 비선형적인 모형이 만들어낸 예측결과는 ’특징량 1과 특징량 2의 수치가 어떠어떠하기 때문에 +1 또는 -1로 예측하였다’와 같은 방식으로 설명이 어렵다. 이 때문에, 이 불규칙해 보이는 경계 전체를 선형적인 모형으로 근사한다면(즉, Global Surrogate을 도입한다면), 지나친 단순화로 인해 좋은 근사모형을 만들어낼 가능성이 낮다.</p>
@@ -390,10 +386,10 @@ P(y=1) = \frac{1}{1+ e^{-(\beta_0 + \beta_1 X_1 + \beta_2 X_2)}}
 <li>셋째, 가상 데이터와 그에 대한 예측결과를 이용하여, 비교적 단순한 근사모형을 만든다.</li>
 </ul>
 <p>이러한 방식을 이미지에 적용하면, 다음과 같은 재미있는 결과를 얻을 수 있다.</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="pics/husky.png" class="img-fluid figure-img"></p>
-<figcaption>늑대로 잘못 분류된 허스키 사진과 그 이유</figcaption>
+<figcaption class="figure-caption">늑대로 잘못 분류된 허스키 사진과 그 이유</figcaption>
 </figure>
 </div>
 <p>이는 LIME을 처음 제시한 Ribeiro 등의 논문(2016)에 수록된 것으로, 특정 오류에 대해서 근사모형을 만들어 보니, 허스키와 늑대를 구분하는 경계가 배경에 해당하는 영역이었다는 것을 알 수 있었다는 예시이다. 즉, 대상의 형태에 따라 허스키와 늑대를 오해한 것이 아니라, 배경의 눈 때문에 늑대라고 생각했다는 것이다. 이는 예측에 이용된 모형이 시베리안 허스키와 늑대을 구분하기 위해 일반적으로 받아들일 수 있을만한 기준에 따라 분류를 생산하고 있지 않기 때문에, 해당 이미지에 대해서 잘못된 판단을 내렸다는 것을 이해하기 쉽게 보여준다. 이것이 만약 대출의 상환 능력에 대한 인공지능의 판단이었다고 생각해 보자. 대출 신청자가 인공지능에 의해 내려진 대출 거절 결정에 대해 이의를 제기했을 때, LIME을 이용한 검증 결과 신청자의 거주지, 또는 성별과 같이 합리적으로 받아들일 수 없는 결정 근거를 이용했거나 차별적 대우로 이해할 수 있는 결정이었음이 드러난다면, LIME의 결과는 신청자가 인공지능의 결정에 대해 재고를 요청할 수 있는 근거를 제공할 수 있을 것이다. 즉, 이전의 장에서 우리가 논의했던 인공지능의 ’불공정성’을 입증할 때도 국소적 설명방식은 유용하게 사용될 수 있는 것이다. 단, 염두에 두어야 할 점 LIME의 이러한 설명이 모형 전체가 그러한 오류를 가지고 있다는 것을 의미하지는 않는다는 것이다. LIME이 국소적 설명방식인 이상, 특정 오류에 대한 설명을 제공할 뿐이다.</p>
@@ -405,10 +401,10 @@ P(y=1) = \frac{1}{1+ e^{-(\beta_0 + \beta_1 X_1 + \beta_2 X_2)}}
 <p>이러한 인과성에 대한 이해가 ‘인과성’이라고 하는 관념을 온전히 담아내는지에 대해서는 매우 활발한 논의가 일어나고 있다.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> 그 타당성을 논하는 것은 이 교재의 논의 범위를 벗어나므로, 지금은 이러한 방식이 상당히 우리가 가지고 있는 ’인과’ 또는 ’원인과 결과’에 대한 직관적인 이해에서 크게 벗어나지 않는다는 점, 그러한 이유로 반사실적 설명은 인과성을 통계적으로 찾아내는 방법론을 개발하는데 있어 중추적인 역할을 하고 있다는 점을 받아들이고 지나가도록 하자.</p>
 <p>반사실적 설명방식의 유용성을 받아들인다면, 인공지능의 특정 판단이라는 ‘결과의 원인을 설명’하기 위해서, 우리가 알아야 하는 것은 인공지능이 이미 내린 결정과 다른 결정이 일어났을 ’반사실적 조건’이 무엇인지 일것이다. 그러나 이는 쉬운 일이 아니다. ’반사실적 조건’은 그 정의상 실제로 일어나지 않은 일, 그리고 현실의 결과와는 다른 결과를 얻게되는 일종의 ’평행세계’을 의미하기 때문이다. 우리가 계속해서 사용하고 있는 인공지능에 의해 대출이 거절된 결과와는 다른 결과, 즉, 대출이 승인된 결과를 얻기 위해서는 우리는 어떤 ’평행세계’ 속에 있어야 하는가? 반사실적 설명방식은 이러한 질문으로 인공지능의 판단에 대한 국소적 설명을 대신한다. 그러나, 타임머신이 없는 이상 그러한 반사실을 알아낼 수는 없다. 그렇다면, 반사실적 설명 방식은 어떻게 XAI에 응용될 수 있다는 것일까?</p>
 <p>XAI에서 사용되는 반사실적 설명방식은 평행세계로 봐도 좋을만한 평행세계의 근사치를 계산해 내는 것이다. 이러한 근사치는 ’지금의 결과와는 다른 결과를 얻었을 최소으로 다른 조건’을 의미한다. 즉, 다시 대출의 예로 돌아가보자면, 대출이 거절된 결과를 대출이 승인되는 결과로 바꾸는 ’최소한의 조건 변화’를 찾아내는 것이다. 이를 그림으로 시각적으로 표현하면 다음과 같다.</p>
-<div class="img-fluid quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="pics/counter.jpg" class="img-fluid figure-img"></p>
-<figcaption>반사실적 설명의 예</figcaption>
+<figcaption class="figure-caption">반사실적 설명의 예</figcaption>
 </figure>
 </div>
 <p>위 그림의 (a)에서 보는 것은 인공신경망 알고리즘이 7이라는 숫자를 9라는 숫자로 새로 분류하기 위한 최소한의 변화, 즉, 반사실적 조건을 보여준다. 여기서 자세히 논하지는 않겠지만, 이러한 반사실적 조건의 근사치를 찾아내는 것은 인공지능의 자동화된 결정의 근거가 되는 특성이 최소한으로 변한다는 ‘제약하에서’ 현실에서의 결과와 평행세계에서 얻었으면 하는 결과 사이의 거리를 좁히는 일종의 ‘제약하의 최적화(constrained optimization)’ 알고리즘으로 표현할 수 있다 (Wachter et al., 2017). 더 비근한 예로, 위의 그림에서 (b)는 대출거절(또는 높은 금융 위험)을 대출승인(낮은 금융 위험)이라는 결정으로 바꾸기 위해서는 현재의 조건에서 최소한으로 바뀌어야 하는 반사실적 조건인지, 그 근사치를 찾은 결과를 표현한다. 예컨대, ‘당신은 만약 지금과 달리 결혼을 했거나, 현재보다 연소득이 5,000달러 많았다면 대출승인이 되었을 것입니다’ 라고 알려주는 것이다.</p>
@@ -444,12 +440,12 @@ P(y=1) = \frac{1}{1+ e^{-(\beta_0 + \beta_1 X_1 + \beta_2 X_2)}}
 
 
 </section>
-<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn1"><p>이 주제에 대해서는 …를 참조하라.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</aside>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -531,9 +527,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -543,17 +540,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -566,135 +554,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        typesetMath(container);
-        return container.innerHTML
-      } else {
-        typesetMath(note);
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      typesetMath(note);
-      return note.innerHTML;
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -738,7 +597,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -764,32 +622,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -851,18 +683,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./fml.html" class="pagination-link  aria-label=" &lt;span="" 인공지능을="" 위한="" 기술적="" 해법&lt;="" span&gt;"="">
+      <a href="./fml.html" class="pagination-link">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">공정한 인공지능을 위한 기술적 해법</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./references.html" class="pagination-link" aria-label="References">
+      <a href="./references.html" class="pagination-link">
         <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
-
 
 
 
