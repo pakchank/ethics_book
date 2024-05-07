@@ -316,10 +316,11 @@ form{background:#eee;padding:1em;border:solid .1em #cccccc;}
     <address>
       <p>
         This is an experimental page. Comments, to
-        <a href="mailto:ctan@ctan.org">the CTAN team</a>,
+        <a href="/cdn-cgi/l/email-protection#86e5f2e7e8c6e5f2e7e8a8e9f4e1">the CTAN team</a>,
         will be most welcome.
       </p>
       <p>Last updated 2020-03-31</p>
     </address>
-  </body>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>(function(){var js = "window['__CF$cv$params']={r:'84e7b5248f43c076',t:'MTcwNjc2NDQzMi4wOTYwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"84e7b5248f43c076","b":1,"version":"2024.1.0","token":"bd9db4a1336440bdb1003e1a4e4d2f76"}' crossorigin="anonymous"></script>
+</body>
 </html>
