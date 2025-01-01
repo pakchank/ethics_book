@@ -1,0 +1,63 @@
+project:
+  type: book
+
+lang: ko-KR
+
+book:
+  title: "인공지능 시대의 윤리 또는 윤리적 인공지능 - 기술, 정책, 철학"
+  author: "김상호, 박대민, 박선희, 박찬경, 사영준, 유용민, 이정현, 이창준, 이혜온"
+  date: today
+  chapters:
+    - index.qmd
+    #- intro.qmd
+    - part: first.qmd
+      chapters: 
+        - basic.qmd
+        - info.qmd
+        - post.qmd
+    - part: second.qmd
+      chapters:
+        - tai.qmd
+        - ineq.qmd
+        - labor.qmd
+        - copy.qmd
+        - psych.qmd
+    - part: third.qmd
+      chapters:
+        - fml.qmd
+        - xai.qmd
+    - references.qmd
+
+bibliography: ethics.bib
+
+format:
+  html:
+    theme: 
+      light: cosmo
+    css: quarto-fonts.css
+    backgroundcolor: "#F5F5F5"
+  #pdf:
+    #documentclass: scrreprt
+  pdf:
+    documentclass: report
+    #fontfamily: Batang
+    fontsize: 12pt
+    thanks: "이 개발과제는 지자체-대학 협력기반 지역혁신 사업비로 개발되었음"
+    include-in-header:
+      - text: 
+          \usepackage{layouts}
+          \usepackage{setspace}
+          \onehalfspacing
+          \usepackage{fvextra}
+          \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+    include-before-body:
+      - text: 
+          \RecustomVerbatimEnvironment{verbatim}{Verbatim}{showspaces = false, showtabs = false, breaksymbolleft={}, breaklines}
+
+knitr:
+  opts_chunk:
+    fig.showtext: TRUE
+
+mainfont: Batang
+sansfont: Batang
+monofont: Batang

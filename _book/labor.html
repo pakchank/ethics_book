@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko-KR" xml:lang="ko-KR"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>6&nbsp; 인공지능과 노동 – 인공지능 시대의 윤리 또는 윤리적 인공지능 - 기술, 정책, 철학</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./copy.html" rel="next">
+<link href="./ineq.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "일치 없음",
+    "search-matching-documents-text": "일치된 문서",
+    "search-copy-link-title": "검색 링크 복사",
+    "search-hide-matches-text": "추가 검색 결과 숨기기",
+    "search-more-match-text": "추가 검색결과",
+    "search-more-matches-text": "추가 검색결과",
+    "search-clear-button-title": "제거",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "취소",
+    "search-submit-button-title": "검색",
+    "search-label": "검색"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="quarto-fonts.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="사이드바 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./second.html">2부: 인공지능 윤리의 적용</a></li><li class="breadcrumb-item"><a href="./labor.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">인공지능과 노동</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="사이드바 전환" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="검색" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">인공지능 시대의 윤리 또는 윤리적 인공지능 - 기술, 정책, 철학</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="검색"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">서문</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./first.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1부: 인공지능 윤리의 철학적 기초</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="토글 섹션">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./basic.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">인공지능 윤리의 모색을 위한 철학적, 기술학적 기초</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./info.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">인공지능과 정보철학/윤리</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./post.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">포스트휴머니즘과 윤리적 인공지능</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./second.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2부: 인공지능 윤리의 적용</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="토글 섹션">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">신뢰할 수 있는/책임있는 인공지능 윤리를 위한 가이드라인</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ineq.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">인공지능과 사회불평등</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./labor.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">인공지능과 노동</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./copy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">인공지능과 저작권 -무엇을 보호해야 하는가</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./psych.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">사회적 인공지능의 도덕성 평가: 가상인간의 마음인식을 중심으로</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./third.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3부: 인공지능 윤리의 기술적 접근</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="토글 섹션">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fml.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">공정한 인공지능을 위한 기술적 해법</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./xai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">설명 가능한 알고리즘</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">목차</h2>
+   
+  <ul>
+  <li><a href="#서론" id="toc-서론" class="nav-link active" data-scroll-target="#서론"><span class="header-section-number">6.1</span> 서론</a></li>
+  <li><a href="#인공지능의-진보와-일자리-자동화" id="toc-인공지능의-진보와-일자리-자동화" class="nav-link" data-scroll-target="#인공지능의-진보와-일자리-자동화"><span class="header-section-number">6.2</span> 인공지능의 진보와 일자리 자동화</a>
+  <ul class="collapse">
+  <li><a href="#인공지능-기술의-급격한-발전과-현재의-다양한-적용" id="toc-인공지능-기술의-급격한-발전과-현재의-다양한-적용" class="nav-link" data-scroll-target="#인공지능-기술의-급격한-발전과-현재의-다양한-적용"><span class="header-section-number">6.2.1</span> 인공지능 기술의 급격한 발전과 현재의 다양한 적용</a></li>
+  <li><a href="#인공지능이-일자리와-직업-구조에-미치는-광범위한-영향" id="toc-인공지능이-일자리와-직업-구조에-미치는-광범위한-영향" class="nav-link" data-scroll-target="#인공지능이-일자리와-직업-구조에-미치는-광범위한-영향"><span class="header-section-number">6.2.2</span> 인공지능이 일자리와 직업 구조에 미치는 광범위한 영향</a></li>
+  <li><a href="#자동화가-가능한-일자리는-인공지능으로-인해-대체-가능하다" id="toc-자동화가-가능한-일자리는-인공지능으로-인해-대체-가능하다" class="nav-link" data-scroll-target="#자동화가-가능한-일자리는-인공지능으로-인해-대체-가능하다"><span class="header-section-number">6.2.3</span> 자동화가 가능한 일자리는 인공지능으로 인해 대체 가능하다</a></li>
+  <li><a href="#자동화로-인해-기존-인간의-역할이-바뀔-것이다" id="toc-자동화로-인해-기존-인간의-역할이-바뀔-것이다" class="nav-link" data-scroll-target="#자동화로-인해-기존-인간의-역할이-바뀔-것이다"><span class="header-section-number">6.2.4</span> 자동화로 인해 기존 인간의 역할이 바뀔 것이다</a></li>
+  <li><a href="#취약한-직업군과-견고한-직업군" id="toc-취약한-직업군과-견고한-직업군" class="nav-link" data-scroll-target="#취약한-직업군과-견고한-직업군"><span class="header-section-number">6.2.5</span> 취약한 직업군과 견고한 직업군</a></li>
+  </ul></li>
+  <li><a href="#생성형-인공지능과-일자리" id="toc-생성형-인공지능과-일자리" class="nav-link" data-scroll-target="#생성형-인공지능과-일자리"><span class="header-section-number">6.3</span> 생성형 인공지능과 일자리</a></li>
+  <li><a href="#인공지능이-불러온-사회-변화-트렌드" id="toc-인공지능이-불러온-사회-변화-트렌드" class="nav-link" data-scroll-target="#인공지능이-불러온-사회-변화-트렌드"><span class="header-section-number">6.4</span> 인공지능이 불러온 사회 변화 트렌드</a>
+  <ul class="collapse">
+  <li><a href="#고용-없는-노동의-현실화" id="toc-고용-없는-노동의-현실화" class="nav-link" data-scroll-target="#고용-없는-노동의-현실화"><span class="header-section-number">6.4.1</span> 고용 없는 노동의 현실화</a></li>
+  <li><a href="#인간노동-대체의-소비시대" id="toc-인간노동-대체의-소비시대" class="nav-link" data-scroll-target="#인간노동-대체의-소비시대"><span class="header-section-number">6.4.2</span> 인간노동 대체의 소비시대</a></li>
+  <li><a href="#유목적-관계의-시대" id="toc-유목적-관계의-시대" class="nav-link" data-scroll-target="#유목적-관계의-시대"><span class="header-section-number">6.4.3</span> 유목적 관계의 시대</a></li>
+  </ul></li>
+  <li><a href="#논의와-대응책" id="toc-논의와-대응책" class="nav-link" data-scroll-target="#논의와-대응책"><span class="header-section-number">6.5</span> 논의와 대응책</a>
+  <ul class="collapse">
+  <li><a href="#다양한-관점에서의-논의" id="toc-다양한-관점에서의-논의" class="nav-link" data-scroll-target="#다양한-관점에서의-논의"><span class="header-section-number">6.5.1</span> 다양한 관점에서의 논의</a></li>
+  <li><a href="#정부-기업-교육기관의-역할" id="toc-정부-기업-교육기관의-역할" class="nav-link" data-scroll-target="#정부-기업-교육기관의-역할"><span class="header-section-number">6.5.2</span> 정부, 기업, 교육기관의 역할</a></li>
+  <li><a href="#인공지능과-노동의-미래에-대한-심층적-전망" id="toc-인공지능과-노동의-미래에-대한-심층적-전망" class="nav-link" data-scroll-target="#인공지능과-노동의-미래에-대한-심층적-전망"><span class="header-section-number">6.5.3</span> 인공지능과 노동의 미래에 대한 심층적 전망</a></li>
+  </ul></li>
+  <li><a href="#더-읽을-거리와-생각해-볼-문제" id="toc-더-읽을-거리와-생각해-볼-문제" class="nav-link" data-scroll-target="#더-읽을-거리와-생각해-볼-문제"><span class="header-section-number">6.6</span> 더 읽을 거리와 생각해 볼 문제</a>
+  <ul class="collapse">
+  <li><a href="#더-읽을-거리-2023년-미국-작가-조합-파업" id="toc-더-읽을-거리-2023년-미국-작가-조합-파업" class="nav-link" data-scroll-target="#더-읽을-거리-2023년-미국-작가-조합-파업"><span class="header-section-number">6.6.1</span> 더 읽을 거리: 2023년 미국 작가 조합 파업</a></li>
+  <li><a href="#인공지능과-노동의-쟁점" id="toc-인공지능과-노동의-쟁점" class="nav-link" data-scroll-target="#인공지능과-노동의-쟁점"><span class="header-section-number">6.6.2</span> 인공지능과 노동의 쟁점</a></li>
+  <li><a href="#생각해-볼-문제-2023년-미국-작가-조합-파업과-관련하여" id="toc-생각해-볼-문제-2023년-미국-작가-조합-파업과-관련하여" class="nav-link" data-scroll-target="#생각해-볼-문제-2023년-미국-작가-조합-파업과-관련하여"><span class="header-section-number">6.6.3</span> 생각해 볼 문제: 2023년 미국 작가 조합 파업과 관련하여</a></li>
+  </ul></li>
+  <li><a href="#부록" id="toc-부록" class="nav-link" data-scroll-target="#부록"><span class="header-section-number">6.7</span> 7. 부록</a></li>
+  <li><a href="#참고문헌" id="toc-참고문헌" class="nav-link" data-scroll-target="#참고문헌"><span class="header-section-number">6.8</span> 8. 참고문헌</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./second.html">2부: 인공지능 윤리의 적용</a></li><li class="breadcrumb-item"><a href="./labor.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">인공지능과 노동</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">인공지능과 노동</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>이창준 (성균관대학교 글로벌융합학부)</em></p>
+<section id="서론" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="서론"><span class="header-section-number">6.1</span> 서론</h2>
+<p>1800년대 초공장 자동화가 노동을 대체할거라고 생각하여 기계를 파괴한 러다이트(Luddites) 운동을 시작으로 기술 혁신은 역사적으로 근로자들 사이에 일자리 대체에 대한 불안을 불러일으켜 왔다. 로봇 등 일자리 자동화가 인간 노동을 대체할 것이라는 두려움은 일부 현실이 되기도 하고 기술 혁신으로 인해 다른 부문의 노동 수요를 자극하여 새로운 일자리를 만들어내기도 했다. 그렇다면 인공지능(최근 생성형 인공지능으로 인해 촉발된) 기술 혁신은 노동 시장에 어떤 영향을 미칠까?</p>
+<p>노동 시장에 대한 혁신의 효과를 정확하게 측정하는 것은 매우 복잡한 문제이다. 제2차 세계대전 이후 미국은 40년 동안 혁신으로 인해 노동 수요가 강화되었고, 이후 40년 동안 성장이 둔화되었다. 전기, 내연 기관과 같은 2차 산업 혁명의 주요 발명품은 복제할 수 없을 만큼 엄청난 경제적 영향을 미쳤다. 연구에 따르면 제품 혁신(새롭거나 향상된 제품/서비스)은 프로세스 혁신(제품/서비스 생성 방식의 개선)보다 생산성과 경제적 성과를 더 높이는 경향이 있다. 노동 시장을 연구하는 학자들에 따르면 노동력을 강화(labor-augmenting)거나 인간이 수행하지 않거나 수행할 수 없는 작업을 수행하는 데 초점을 맞춘 기술 혁신은 결국 총 노동 수요를 자극하여 더 많은 일자리의 창출로 이어진다고 주장한다. 이러한 혁신은 프로세스 혁신보다 제품 혁신과 더욱 밀접하게 연계된다고 보았다. 반대로, 인공지능과 같은 기존 인간의 작업 수행에 초점을 맞춘 노동 자동화 기술은 프로세스 혁신과 더 유사하며 총 노동 수요를 감소시킬 가능성이 더 높다.</p>
+<p>하지만, 혁신을 순전히 제품이나 프로세스, 노동 증대 또는 노동 자동화로 분류하는 것은 복잡한 문제를 너무 단순하게 푸는 것과 같다. 예를 들어, 자동차 자체는 제품 혁신일 뿐만 아니라 운송이라는 과정에 대한 프로세스 혁신이기도 하기 때문이다. 혁신이 노동에 미치는 영향은 대체(자동화를 통해 노동 수요 감소), 회복(새로운 작업 창출 및 그에 따른 노동 수요 창출), 생산성 효과로 분류된다. 노동 수요에 대한 혁신의 전반적인 효과는 생산성 효과의 규모에 따라 결정되는데, 이는 높은 임금의 노동을 혁신이 대체할 때 가장 강력하다고 할 수 있다.</p>
+<p>인류는 현재 인공지능(AI)이라는 거대한 혁명의 중심에 서 있다. 이 혁명은 단순히 기술 발전을 넘어 우리의 일상생활, 직업의 본질, 심지어 우리가 자신과 세계를 인식하는 방식까지 근본적으로 변화시키고 있다. 따라서 인공지능이 노동 시장에 미치는 효과는 개인의 생계, 기업의 운영 방식, 국가 경제의 구조에 이르기까지 매우 광범위할 수 밖에 없다. 이 변화를 이해하는 것은 단순한 호기심, 즉 ’인공지능이 어떤 직업을 대체할 수 있을까?’에 대한 답을 찾는 것을 넘어, 우리 모두에게 미래 사회를 준비하는 실질적인 필요성이 되다. 본 챕터에서는 <strong>‘인공지능과 노동’</strong>이라는 주제를 통해 인공지능의 발전이 사회에 미치는 영향을 깊이 있게 탐구하고자 한다.</p>
+<p>먼저 인공지능에 대한 기본적인 이해부터 시작해보려고 한다. 인공지능은 컴퓨터나 기계가 인간의 지능적인 행동을 모방하고, 복잡한 문제를 해결하며, 의사결정을 내릴 수 있는 고도의 기술이다. ****이 기술은 이미 여러분의 일상 속 깊숙이 자리 잡고 있다. Siri와 Bixby와 같은 스마트폰의 개인 비서 기능부터 의료 분야의 진단 시스템, OTT의 맞춤형 콘텐츠 추천, 금융 서비스의 자동화된 고객 상담까지 다양한 형태로 우리 삶에 영향을 미치고 있다.</p>
+<p>하지만 인공지능이 인류에 가장 큰 영향을 주는 영역은 노동 시장일 것이다. 일부는 인공지능을 일자리를 파괴하는 위협으로 보지만, 다른 이들은 기존의 일을 혁신하고 새로운 기회를 창출하는 동력으로 여기곤 한다. 실제로 인공지능은 특정 작업을 자동화함으로써 일부 직업을 대체할 수 있으나, 동시에 새로운 직업을 창출하고, 기존 직업의 효율성을 높이며, 전례 없는 혁신을 가져올 수 있다.</p>
+<ul>
+<li>예를 들어, <strong>의료 분야</strong>에서는 인공지능이 다양한 방식으로 활용되고 있다.인공지능은 환자의 위치를 정확하게 파악하고 CT 이미지를 재구성하는 데 도움을 주어 방사선과학과의 효율성을 향상시키거나, 심장 기능을 평가하는 데 사용되는 초음파 측정의 복잡성을 줄이는 데 도움을 주고 있다.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
+</ul>
+<ul>
+<li><strong>제조업</strong>에서는 인공지능이 생산 과정을 최적화하고 불량률을 줄이는 데 기여하고 있다.예를 들어, 지멘스(Siemens)는 인공지능과 기계 학습을 활용하여 산업 자동화와 데이터 분석을 개선하고 있고, IBM은 클라우드, 인공지능, 기계 학습 도구를 제공하여 생산 시간과 비용을 줄이는 데 도움을 주고 있다.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+</ul>
+<p>그러나 인공지능의 발전이 가져오는 변화는 단순히 기술적인 측면에 그치지 않는다. 우리는 어떤 일자리가 사라지고, 어떤 일자리가 변화할지, 그리고 새로운 일자리는 어떻게 생겨날지를 예측하고 대비해야 한다. 이 과정에서 정부, 기업, 교육 기관, 개인 등 모든 이해관계자의 역할이 매우 중요하다. 정부는 적절한 정책과 규제를 통해 인공지능의 긍정적인 측면을 촉진하고 부정적인 영향을 최소화해야 하며, 기업은 직원들의 재교육과 재취업 지원 프로그램을 제공하여 변화하는 시장 요구에 부응해야 한다. 또한, 교육 기관은 학생들에게 미래의 노동 시장에 필요한 기술과 지식을 제공하여 이러한 변화에 대비할 수 있도록 해야 한다. 마지막으로 우리 모두 개인 차원에서 이러한 변화를 단순히 관찰자의 입장에서 보는 것이 아니라, 적극적으로 이해하고, 준비하며, 올바른 방향으로 이끌어 갈 필요가 있다.</p>
+</section>
+<section id="인공지능의-진보와-일자리-자동화" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="인공지능의-진보와-일자리-자동화"><span class="header-section-number">6.2</span> 인공지능의 진보와 일자리 자동화</h2>
+<section id="인공지능-기술의-급격한-발전과-현재의-다양한-적용" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="인공지능-기술의-급격한-발전과-현재의-다양한-적용"><span class="header-section-number">6.2.1</span> 인공지능 기술의 급격한 발전과 현재의 다양한 적용</h3>
+<p>많은 사람들이 처음으로 인공지능이 대단하다고 느끼는 순간은 대체로 인공지능이 체스나 바둑과 같은 게임에서 인간 챔피언을 이기는 장면이었을 것이다. 예를 들어, 1997년 IBM의 ’딥 블루’가 세계 체스 챔피언 가리 카스파로프를 이겼고, 2016년에는 Google의 ’알파고’가 바둑의 세계 챔피언 이세돌을 이겼다. 물론 이세돌 9단은 알파고와의 4번째 대국에서 ’신의 한수’를 만들어 승리했지만, 이러한 순간들은 인공지능이 단순한 계산을 넘어 인간의 전략적 사고를 모방하고, 때로는 뛰어넘을 수 있는 능력을 가지고 있음을 전 세계에 알리는 신호탄이 되었다.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>그러나 실제로 인공지능은 체스나 바둑과 같은 게임에서의 승리에 그치지 않고, 이미 우리 일상생활에 깊숙이 침투해 있다. 예를 들어, 음성 인식 기술을 통해 우리는 스마트폰이나 가정용 스마트 스피커에게 명령을 내릴 수 있다. Siri, Alexa, Google Assistant와 같은 AI 비서들은 단순한 명령 수행에서부터 일정 관리, 뉴스 업데이트 제공, 심지어 감성적인 대화에 이르기까지 다양한 작업을 수행하고 있다. 이러한 기술들은 우리의 생활 방식을 변화시키며, 더 편리하고 연결된 삶을 가능하게 한다.</p>
+<p>의료 분야에서 AI의 역할은 더욱 중요해지고 있다. AI는 환자 데이터를 분석하여 질병을 진단하고, 적절한 치료 방법을 제안하며, 심지어 새로운 약물을 개발하는 데 기여하고 있다. 예를 들어, 구글의 DeepMind는 ‘알파폴드’ 프로그램을 통해 단백질의 3D 구조를 예측하는 데 혁명적인 진전을 이루었다. 이러한 발전은 맞춤형 의학과 치료법의 개발을 촉진시켜, 더 효과적이고 개인화된 의료 서비스를 제공할 수 있게 한다.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p>자동차 산업에서는 자율 주행 차량의 등장이 가까운 미래의 현실로 다가오고 있다. Tesla, Waymo, Uber와 같은 회사들은 이미 도로에서 자율 주행 테스트를 진행하고 있다. 이 기술이 완전히 성숙되고 널리 보급되면, 교통 사고의 감소, 교통 체증의 해소, 운전자의 편의 증진 등 많은 긍정적인 변화를 가져올 것으로 기대된다. 자율 주행 차량은 또한 이동성에 제한이 있는 사람들에게 새로운 기회를 제공하고, 물류 및 배송 산업에도 혁신을 가져올 것이다.</p>
+</section>
+<section id="인공지능이-일자리와-직업-구조에-미치는-광범위한-영향" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="인공지능이-일자리와-직업-구조에-미치는-광범위한-영향"><span class="header-section-number">6.2.2</span> 인공지능이 일자리와 직업 구조에 미치는 광범위한 영향</h3>
+<p>일부 전문가들은 인공지능을 ’일자리 파괴자’로 보는데, 특히 반복적이고 예측 가능한 작업을 수행하는 직업들이 위험에 처해 있다고 지적한다. 예를 들어, 제조업에서는 로봇과 AI 시스템이 인간 노동자를 대체하여 더 빠르고 정확하게 작업을 수행할 수 있는데, 이러한 자동화는 생산성을 크게 향상시킬 수 있지만, 동시에 기존의 일자리를 줄일 수 있는 이중적인 특성을 가지고 있다. 고객 서비스 분야에서는 AI 챗봇이 기본적인 문의 사항을 처리하고, 효율적인 서비스를 제공하면서, 전통적인 콜센터 직원의 역할을 변화시키고 있다.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<p>반면, 다른 전문가들은 인공지능을 ’기회의 창출자’로 보고, AI가 담당할 수 있는 반복적인 작업들을 자동화함으로써, 인간 노동자들이 더 창의적이고 전략적인 작업에 집중할 수 있게 될 것이라고 주장한다. 예를 들어, 프롬프트 엔지니어, 인공지능을 활용한 콘텐츠 기획자와 같은 새로운 직업들이 등장하고 있다. 이러한 직업들은 기술 발전의 이점을 활용하며, 경제와 사회에 새로운 가치를 창출한다. 또한, 의료 분야에서 AI가 의사와 간호사의 진단과 치료 결정을 보조함으로써, 의료 서비스의 질을 향상시키고, 환자에게 더 나은 치료를 제공할 수 있게 되었다. 이러한 변화는 기존의 직업을 더 효율적이고 효과적으로 만들며, 새로운 전문 분야와 기회를 창출할 것이다.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+</section>
+<section id="자동화가-가능한-일자리는-인공지능으로-인해-대체-가능하다" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="자동화가-가능한-일자리는-인공지능으로-인해-대체-가능하다"><span class="header-section-number">6.2.3</span> 자동화가 가능한 일자리는 인공지능으로 인해 대체 가능하다</h3>
+<p>일자리 자동화는 인공지능(AI)과 로봇공학의 발전으로 인해 특정 작업이 기계에 의해 수행되는 현상을 말한다. 이 현상은 제조업을 시작으로 의료, 금융, 서비스업에 이르기까지 다양한 분야에서 점점 더 두드러지게 나타나고 있다. 자동화의 가장 대표적인 예로는 자동차 제조업에서의 로봇 팔 사용을 들 수 있다. 이 로봇들은 사람보다 훨씬 빠르고 정확하게 차량을 조립하고, 무거운 부품을 들어 옮기며, 위험한 작업을 수행하여 인간 노동자의 부상 위험을 줄인다. 그러나 이러한 기계의 도입은 전통적인 조립 라인에서의 수많은 일자리를 줄이는 결과를 가져왔다. 사람들은 이제 더 복잡하고 창의적인 업무에 집중할 수 있게 되었지만, 동시에 많은 사람들이 기존의 일자리를 잃게 된 것이다.</p>
+<p>서비스업에서의 자동화는 주로 ’소프트웨어 로봇’이나 AI를 통해 이루어지고 있습니다. 예를 들어, 은행업계에서는 전통적인 창구 직원의 역할이 ATM과 온라인 뱅킹 시스템에 의해 대체되고 있다. 이러한 기계는 24시간 동안 고객의 요구에 응답할 수 있으며, 오류의 가능성을 줄이면서 많은 루틴 업무를 처리할 수 있다. 더 나아가, AI 기반의 챗봇은 고객 문의에 대응하고, 간단한 금융 상담까지 제공할 수 있는데, 이는 고객 서비스의 효율성을 높이고, 인간 직원이 더 복잡하고 전략적인 작업에 집중할 수 있게 한다. 그러나 이러한 변화는 전통적인 고객 서비스 직종의 일자리 수를 줄이는데 큰 기여를 하고 있다.</p>
+</section>
+<section id="자동화로-인해-기존-인간의-역할이-바뀔-것이다" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="자동화로-인해-기존-인간의-역할이-바뀔-것이다"><span class="header-section-number">6.2.4</span> 자동화로 인해 기존 인간의 역할이 바뀔 것이다</h3>
+<p>한편, 기존의 자동화가 가능한 일부 직업들은 인공지능에 의해 대체되기보다는 역할이 변화하는 형태로 진화할 것이다. 전통적으로 회계사는 기본적인 계산과 데이터 입력과 같은 반복적인 작업을 수행해왔다. 하지만 이제 이러한 작업은 인공지능에 의해 자동가 가능하다. 그렇다고해서 회계사라는 직업이 사라지지는 않는다. 오히려 회계사로 하여금 더 복잡한 분석, 전략적 의사결정 지원, 고객 상담과 같은 더 높은 수준의 작업에 집중할 수 있는 기회를 제공할 것이다. 인공지능은 데이터를 빠르게 처리하고 데이터 베이스에 저장할 수 있는 능력을 가지고 있지만, 그 데이터 안에서 의미 있는 정보를 분석하고 이를 사용자(회계사)에게 제공하는 능력은 제한적이다. 회계 전문가들은 이러한 인공지능의 능력을 활용, 기업의 방대한 데이터를 분석하여 중요한 통찰력을 얻을 수 있으며, 이 정보를 기반으로 보다 전략적인 결정을 내릴 수 있다. 더 나아가, 회계 전문가들은 이 과정에서 얻어진 자료를 바탕으로 조직의 자문 역할을 강화할 수 있게 된다. 특히, 블록체인 기술과 일부 AI 도구를 활용함으로써, 회계 감사의 안전성과 보안성이 크게 향상될 것으로 기대된다. 이러한 기술의 도입은 회계 업무의 효율성과 정확성을 높이는 동시에 조직 전반의 신뢰성을 증진시킬 것이다.이처럼 자동화는 기존 직업의 역할을 변화시키고, 직업을 보다 전문화되고 창의적인 방향으로 발전시킬 수 있는 잠재력을 가지고 있다.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+</section>
+<section id="취약한-직업군과-견고한-직업군" class="level3" data-number="6.2.5">
+<h3 data-number="6.2.5" class="anchored" data-anchor-id="취약한-직업군과-견고한-직업군"><span class="header-section-number">6.2.5</span> 취약한 직업군과 견고한 직업군</h3>
+<p>인공지능의 위협을 가장 많이 받는 직업들은 일반적으로 높은 수준의 반복적 작업을 포함하고 예측 가능한 환경에서 일하는 직업들이다. 이러한 직업군에는 제조업 노동자, 콜센터 직원, 일부 사무직, 그리고 운전 기반의 직업들이 포함된다. 이들 직업에서는 AI나 로봇이 인간보다 더 빠르고 정확하게 작업을 수행할 수 있으며, 피로나 오류의 위험이 없다는 장점이 있다. 따라서 이러한 직업들은 인공지능이 대중화될 수록 사라질 위험이 높은 취약한 직업군이라고 할 수 있다.</p>
+<p>반면, 창의성, 복잡한 사회적 상호작용, 고도의 비판적 사고를 요구하는 직업들은 AI가 쉽게 대체하기 어려운 영역이다. 예술가, 과학자, (직관을 통해) 전략적 결정을 내리는 관리자 등은 인간만의 독특한 능력을 필요로 하는 영역에서 활동하며, 이러한 직업들은 AI의 발전에도 불구하고 여전히 중요하고 가치 있는 역할을 수행할 것이다.</p>
+</section>
+</section>
+<section id="생성형-인공지능과-일자리" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="생성형-인공지능과-일자리"><span class="header-section-number">6.3</span> 생성형 인공지능과 일자리</h2>
+<p><strong>파운데이션 모델(Foundation model)</strong>을 사용하여 텍스트, 이미지, 코드와 같은 새로운 콘텐츠를 생성하는 기술인 생성형 인공지능은아직 초기 단계이지만 노동 시장에 미치는 잠재적 영향은 상당할 것이다. 1980년 이후 혁신은 저임금 및 중임금 일자리 자동화에 중점을 두어 상대적으로 낮은 비용 절감으로 인해 생산성 효과가 제한되었지만 생성형 인공지능으로 촉박된 노동 시장의 반응은 고임금 근로자에게 더 높은 위험을 초래하고 잠재적으로 상당한 비용 절감으로 이어져 결과적으로 더 강력한 생산성 효과와 총 노동 수요를 증가시킬 수 있다는 점에서 기존의 기술 혁신발 노동 시장의 변화와는 결이 다를 것으로 예상된다.</p>
+<p>생성형 인공지능은 일반적으로 노동 수요 증가 가능성이 낮은 프로세스 혁신으로 분류된다. 이는 상당한 생산성 효과를 가져옴과 동시에 많은 직업이 사라질 수 있음을 시사한다. 범용 기술인 생성형 인공지능은 코드 작성부터 사기 탐지(Fraud detection)까지 다양한 산업과 작업에 걸쳐 광범위한 영향을 미치며 생산성 향상을 이루어낼 것으로 기대되고 있다.</p>
+<p>이때, 인구 통계학적 변수와 국가마다 다르게 진화하는 인공지능에 대한 제도들은 생성형 인공지능이 노동 수요에 미치는 영향을 다르게 만들 수 있는 요소들이다. 노동력 부족은 자동화를 장려하며, 이는 노동력이 노령화되거나 감소하는 국가에서 생성형 인공지능의 채택과 응용이 더 많아지고 결과적으로 생산성 효과가 더 커질 수 있음을 시사한다. 그러나 근로자 보호와 노조의 힘이 강한 제도를 가진 국가(또는 지역)에서는 인공지능의 노동 대체 효과가 약해 직업적 업무가 보다 순차적으로 전환되고 단순히 업무를 자동화하는 대신 기존 고용된 일자리 노동자들의 생산성 향상을 위해 생성형 인공지능을 사용하는 데 중점을 둘 것이다. 노동자 보호가 강화되면 비용 절감 효과가 낮아 국가 전반적인 생산성 효과가 감소할 수 있지만, 노동 시장에서 보다 균형감 있고 지속 가능한 전환으로 이어질 수도 있다.</p>
+<p>생성형 인공지능은 노동 시장에서 불평등(Inequality)에 영향을 미칠 수 있다. 고소득 직종과 산업이 가장 위험에 처해 있기 때문에 이들 근로자를 대체하면 처음에는 불평등이 줄어드는 것 처럼 보일 수도 있을 것이다. 연구에 따르면 생성형 인공지능을 도입하면 상위 1%에 속하는 사람들은 큰 영향을 받지 않을 수도 있지만 상위 1%와 10% 사이의 소득 격차는 줄어들 수 있다고 한다. 고소득 기술을 AI로 대체하면 저임금 기술에 대한 수요와 임금이 증가하여 임금 격차가 더욱 줄어들기 때문이다. 그러나 이것이 보편적인 불평등 완화로 이어질지는 미지수이다. 생성형 인공지능으로 대체되는 고소득 직종이 많이 분포한 지역은 경제적, 사회적으로 어려움을 겪을 수 있기 때문이다.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+</section>
+<section id="인공지능이-불러온-사회-변화-트렌드" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="인공지능이-불러온-사회-변화-트렌드"><span class="header-section-number">6.4</span> 인공지능이 불러온 사회 변화 트렌드</h2>
+<section id="고용-없는-노동의-현실화" class="level3" data-number="6.4.1">
+<h3 data-number="6.4.1" class="anchored" data-anchor-id="고용-없는-노동의-현실화"><span class="header-section-number">6.4.1</span> 고용 없는 노동의 현실화</h3>
+<p>현대 산업에서 자동화와 인공지능의 급속한 발전은 노동 시장에 본질적인 변화를 가져오고 있다. 기계와 소프트웨어의 작업 복잡성 증가로 인해 다양한 산업에서 여러 수준의 자동화가 도입되고 있으며, 이러한 인공지능으로 촉발된 디지털 전환이 고숙련 일자리 증가 및 저숙련 일자리 감소로 이어지는 숙련 편향적 기술 변화를 초래하고 있다(Balsmeier &amp; Woerter, 2019). 국내에서도 약 55~57%의 일자리가 향후 컴퓨터로 대체될 가능성이 높은 것으로 나타나며, 일부 연구에서는 이 비율이 70.6%에 달한다고 보고되었다(김세움 2015; 박가열 외 2016)</p>
+<p>자동화, 로봇화, 컴퓨터화의 발전은 반복업무기반(routine-based) 직업의 인력 수요 감소를 예측하며, 특히 교통, 유통, 사무직 등이 디지털 전환에 따라 높은 위협을 받는 분야로 분석됩니다. 미국에서는 약 47%의 일자리가 고위험군에 속한다고 보고되었다(Frey &amp; Osborne, 2017). 그러나 동시에 프로그래밍, 데이터 분석과 같은 비반복적 인지 기반 직무의 일자리는 증가할 것으로 예측된다(Acemoglu &amp; Restrepo, 2018).</p>
+<p>인공지능은 또한 노동의 질적 측면에서도 변화를 가져온다. 특히 플랫폼 노동의 증가는 새로운 형태의 일자리와 노동거래 방식을 등장시켰으며, 이러한 경제는 네트워크를 통한 직접적인 일자리 중개 및 배정에 관여한다. 플랫폼 노동은 서비스 또는 가상재화 거래, 디지털 플랫폼을 통한 일거리 구함, 대가나 보수 중개, 그리고 특정인이 아닌 다수에게 열려 있는 일감 중개 등을 특징으로 한다. 이러한 경제는 코로나19의 영향으로 더욱 활성화되었으며, 특히 광의의 플랫폼 종사자 수가 2021년 220만 명에서 2022년 292만 명으로 증가하기도 하였다(고용노동부, 2022).</p>
+<p>플랫폼 노동의 확대는 고용 없는 노동의 장기적인 경제성장과 효율성 증가 잠재력을 가지고 있지만, 이는 또한 사회 안전망의 변화와 교육 체계에 대한 새로운 요구를 제기한다. 플랫폼 노동자에 대한 보호 제도 관련 논의가 발전했지만, 전통적 일자리에서 플랫폼 일자리로의 이동은 노동시장 내 인력 수급 및 운용 문제를 야기할 수 있다. 이러한 노동 시장의 편차와 불균형에 대응하기 위해서는 인간의 삶의 질을 향상시키는 지속 가능한 발전을 중심으로 한 정책적 방안이 필요하다(민순홍, 2023).</p>
+<p>또한, 알고리즘에 의한 노동자 통제와 관련한 논의도 중요하다. 최근 인공지능 플랫폼 노동에 일감을 배분하고 통제하는 데 인공지능 알고리즘을 적용하는 형태가 등장했기 때문이다. 이는 다이내믹 프라이싱(Dynamic pricing)을 통한 이윤 극대화 목적으로 활용되지만, 노동과 관련한 공정성 및 투명성 측면에서 문제가 제기되고 있다(장진희·노성철·현종화, 2022).</p>
+<p>결론적으로, 디지털 전환에 따른 다양한 노동 변화에 대응하기 위해서는 정부와 기업 간의 적절한 정책적 협력이 필수적이다. 기술 자동화가 대체하는 것은 ’직업’이 아니라 ’직무’임을 인식하고, 새롭게 등장하는 일자리에 대한 다방면의 고려가 필요하다. 또한, 플랫폼 노동과 관련하여 윤리적인 기술 활용과 적절한 규제의 중요성을 인식하고, 이에 대한 논의를 적극적으로 이어나가야 한다.</p>
+</section>
+<section id="인간노동-대체의-소비시대" class="level3" data-number="6.4.2">
+<h3 data-number="6.4.2" class="anchored" data-anchor-id="인간노동-대체의-소비시대"><span class="header-section-number">6.4.2</span> 인간노동 대체의 소비시대</h3>
+<p>현대 소비자는 편의와 개인화된 서비스를 요구하며, 특히 코로나19와 인공지능의 발달로 인한 비대면화와 온라인화는 디지털 전환을 가속화하고 있다. 이는 전통적인 소비 패턴의 변화뿐만 아니라, 새로운 서비스와 비즈니스 모델의 등장을 촉발시켰다. 인공지능과 로봇은 판매부터 로지스틱까지 다양한 분야에서 활용되며, IoT·AI의 발달로 즉각적이고 개인화된 소비자 참여가 가능해졌다. 이에 따라 구매 채널 방식도 옴니채널이나 온디맨드 서비스 등으로 전환되는 추세다(한국마케팅연구원, 2022).</p>
+<p>유통업계는 AI를 활용한 ‘초개인화’ 서비스를 선보이며 소비자의 취향과 생각을 분석해 상품과 서비스를 제공하고 있다. 이는 ‘나만을’ 위한 맞춤 상품 소비를 가능하게 하며, 기업들은 구매 전환율을 높이고 차별화된 쇼핑 환경을 제공함으로써 시장에서 경쟁력을 확보하고자 한다. 이러한 디지털 전환은 노동과 소비시장의 구조 변화를 가져온다. 알고리즘 소비의 상대적 유익성, 소비자가 알고리즘 시장에서 가지는 지배력, 비용 절감이나 효용 비율이 소비자의 후생에 미치는 영향 등이 중요한 요소다. 알고리즘 도입이 증가할수록 과거의 노동력 투입이나 인지적 노력보다 더욱 적은 비용으로 빠르고 효과적인 삶의 수행이 가능해진다.</p>
+<p>인공지능 알고리즘은 경제활동에서의 비효율을 축소해 소비효용을 개선할 것으로 전망된다. 이는 정보를 낮은 비용으로 분석해 선택 다양성을 확보하고, 소비자 의사결정을 보완하며, 개인 특성에 따른 편향성을 감소시키는 등의 방식으로 이루어진다(Picht and Freund ,2018). 디지털 전환에 따른 소비 패턴의 재편은 개인적 측면뿐만 아니라 지역 및 사회 전반에 영향을 미칠 수 있다. 개인별 맞춤 가격 설정은 사업자에게는 새로운 기회를 창출할 수 있으나, 소비자 잉여의 축소와 같은 부정적 측면도 있다(허민영, 임병권, 2021). 기술 발전과 정보량 증가에 따라 알고리즘이 개인의 지불의사가격에 근접해 가격을 설정하는 사업모델이 확대될 것으로 예상된다.</p>
+<p>이러한 변화는 사회적 책임과 윤리를 중시하는 새로운 요구사항을 제기한다. 개인화된 가격으로 인한 소비자 이익 감소, 가격의 공정성과 시장의 신뢰, 기업의 개인정보 활용 범위와 윤리성 등 새로운 소비자 문제를 검토할 필요가 있다. 또한, 인공지능 알고리즘이 수집하는 개인정보와 그것의 활용에 대한 윤리적, 규범적, 철학적 고민이 필요하다.</p>
+<p>인공지능 시대의 소비 패턴 변화에 대응하기 위해서는 기업과 정부 간 협력이 필수적이며, 소비자 보호를 위한 적절한 규제가 중요하다. 이러한 미래의 지능정보사회에서 나타날 법적 이슈는 소비자의 안전을 보장할 개인정보 보호 강화와 새로운 산업에 대한 규제 완화 요구라는 상호 모순된 법제적 측면이 병존할 수 있다. 인공지능 알고리즘을 활용한 시장의 발전은 정보규율에 의해 결정되며, 개인정보의 수집 및 활용과 보호 사이에 존재하는 상충관계를 균형잡는 것이 중요하다.</p>
+</section>
+<section id="유목적-관계의-시대" class="level3" data-number="6.4.3">
+<h3 data-number="6.4.3" class="anchored" data-anchor-id="유목적-관계의-시대"><span class="header-section-number">6.4.3</span> 유목적 관계의 시대</h3>
+<p>글로벌화와 디지털 기술 발전은 국가 간 경제 통합을 촉진하고 글로벌 네트워크를 가능하게 했다. 이는 다문화와 다양성을 중요한 가치로 부각시키며 사람들 사이의 연결을 강화했다. 최근 글로벌 대기업들은 다양성을 중요한 가치로 여기며 ’다양성 보고서’를 작성하는 등 인력 구성에 있어 연령, 성별, 민족, 성적 취향 등의 다양성을 존중하고 있다. 매킨지리포트에 따르면 다양성이 높은 기업은 그렇지 않은 기업보다 재무 수익이 높다고 한다(McKinsey, 2015). 이는 다양성이 기업 경쟁력으로 이어지기 때문이다.</p>
+<p>원격 노동과 프리랜서 경제는 노동 시장의 유연성을 증대시켰다. 교육과 업무 스킬의 전세계적 적용은 인력 이동을 촉진하고, 이민과 인력 이동은 새로운 경제 기회를 제공한다. 디지털 시대에는 컴퓨터의 등장으로 일하는 방식이 근본적으로 변화했으며, 직원들은 서로 다른 연관된 업무를 비동시적으로 일할 수 있게 되었다. 이는 근무의 유연성을 높이고 공간에 대한 종속성을 완화시켜 ‘디지털 노마드’ 현상을 가져왔다(정민재·이정교, 2018).</p>
+<p>가상 커뮤니티와 사회적 네트워킹은 협력과 공유 문화의 확산을 촉진하며 사람들의 삶의 질을 향상시켰다. 이는 모바일 기반의 전자상거래의 편재성, 편리성, 즉흥성, 경제성 등에서 확인할 수 있듯이 시간과 공간의 제약에서 벗어나 다양한 가치를 제공하는 구매채널로 자리 잡았다(김경희, 2018).</p>
+<p>유목적 관계의 시대는 국제 협력과 다자간 협상의 필요성을 강조하며, 정보 보안과 개인 정보 보호가 중요한 이슈가 되었다. 클라우드, AI 등의 기술 적용과 비대면 업무 등이 일상화되어가고 있지만, 사이버 위협도 빠르게 증가하고 있다. 예를 들어 줌바밍 해킹 사건처럼 화상 회의 중에 해커가 침투하여 내부 정보를 빼돌리거나 불법 게시물을 올리는 사건이 문제가 되었다. 이러한 취약성은 회사 내부의 중요 자료 유출에 대한 우려와 통제되지 않는 위험성을 초래한다. 따라서 디지털대전환시대의 소비 패턴 변화에 대응하기 위해서는 기업과 정부 간 협력이 필수적이며, 소비자 보호를 위해 적절한 수준의 규제가 중요하다. 이와 더불어 인공지능 알고리즘을 활용한 시장의 발전은 정보규율에 의해 결정되며, 개인정보의 수집 및 활용과 보호 사이에 존재하는 상충관계를 균형잡는 것이 중요하다.</p>
+</section>
+</section>
+<section id="논의와-대응책" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="논의와-대응책"><span class="header-section-number">6.5</span> 논의와 대응책</h2>
+<section id="다양한-관점에서의-논의" class="level3" data-number="6.5.1">
+<h3 data-number="6.5.1" class="anchored" data-anchor-id="다양한-관점에서의-논의"><span class="header-section-number">6.5.1</span> 다양한 관점에서의 논의</h3>
+<p>인공지능(AI)과 노동에 대한 논의는 사회의 다양한 분야와 각자의 전문 분야에 따라 다른 관점을 제공한다. 경제학자들은 인공지능이 경제 성장과 생산성, 그리고 노동 시장에 미치는 영향을 분석한다. 이들은 AI가 일자리를 대체할 가능성, 새로운 일자리 창출, 임금 격차와 같은 경제적 파급 효과를 연구한다. 사회학자들은 사회 구조와 노동 시장에 대한 변화를 탐구하며, 인공지능이 사회적 계층, 교육, 불평등과 어떻게 상호작용하는지를 분석한다. 철학자와 윤리학자들은 인공지능의 발전이 인간의 존엄성, 자율성, 윤리적 선택에 미치는 영향을 논하며, AI의 책임과 도덕적 한계에 대해 논의한다. 기술 전문가들은 AI 기술의 발전 가능성과 한계를 탐색하고, 새로운 혁신과 기술적 도전을 이해하기 위해 노력한다. 이러한 다양한 관점의 논의는 인공지능이 노동에 미치는 복합적인 영향을 이해하고, 보다 폭넓고 균형 잡힌 시각을 갖는 데 중요하며, 모든 관점에서의 포괄적 논의가 필요하다.</p>
+<p>예를 들어, 경제학적 관점에서는 일자리 자동화가 생산성을 향상시킬 수 있지만, 동시에 불평등을 심화시킬 수 있다는 점을 지적한다. 이는 특히 저숙련 노동자나 반복적인 작업을 수행하는 사람들이 AI에 의해 가장 먼저 영향을 받을 수 있음을 의미한다. 사회학적 관점에서는 인공지능이 노동 시장에서 일부 집단에게 더 큰 영향을 미칠 수 있으며, 이는 사회적 긴장과 분열을 야기할 수 있음을 강조한다. 예를 들어, 특정 지역이나 산업에서의 일자리 감소는 지역 경제에 심각한 영향을 미칠 수 있으며, 이는 사회적 불안정성을 증가시킬 수 있다는 것이다.</p>
+</section>
+<section id="정부-기업-교육기관의-역할" class="level3" data-number="6.5.2">
+<h3 data-number="6.5.2" class="anchored" data-anchor-id="정부-기업-교육기관의-역할"><span class="header-section-number">6.5.2</span> 정부, 기업, 교육기관의 역할</h3>
+<p>인공지능과 노동의 상호작용에 대응하기 위해서는 정부, 기업, 교육기관 등 모든 이해관계자의 역할과 책임이 매우 중요하다. 정부는 적절한 정책과 규제를 통해 인공지능의 긍정적인 측면을 촉진하고 부정적인 영향을 최소화해야 한다. 이는 국가 차원에서의 전략적 계획을 포함하며, 인공지능 관련 정책, 법률, 윤리 지침을 개발하는 것을 의미한다. 예를 들어, 정부는 재교육 및 재취업 프로그램을 지원하여 노동 시장의 변화에 대비할 수 있도록 해야 하며, 인공지능의 윤리적 사용을 위한 법적 틀을 마련해야 할 것이다. 또한, 정부는 사회 안전망을 강화하여 기술 변화로 인해 일자리를 잃은 사람들이 생계를 유지할 수 있도록 지원해야 한다.</p>
+<p>기업은 인공지능을 도입하면서 발생할 수 있는 윤리적, 사회적 문제를 고려해야 한다. 이는 기업의 사회적 책임(CSR) 활동의 일환으로, 직원들의 재교육과 재취업 지원 프로그램을 제공하는 것을 포함한다. 기업은 기술 발전에 따른 직원의 직업 안전과 복지를 보장하기 위한 노력이 필요하며, 이를 위해 직원들과의 소통과 협력을 강화해야 할 것이다. 또한, 기업은 인공지능의 윤리적 사용을 위한 내부 지침과 프로토콜을 개발하고, 이해관계자들과의 협력을 통해 지속 가능한 방식으로 기술을 채택해야 한다.</p>
+<p>교육기관은 학생들에게 미래의 노동 시장에 필요한 기술과 지식을 제공하는 중요한 역할을 한다. 이는 단순히 기술적 기술을 가르치는 것뿐만 아니라, 비판적 사고, 창의성, 사회적 기술과 같은 보편적 기술을 강조하는 것을 포함한다. (이 책이 그러한 역할을 하기 바란다). 교육기관은 평생 학습의 중요성을 강조하고, 학생들에게 유연한 학습 기회를 제공함으로써 빠르게 변화하는 노동 시장에 대응할 수 있게 해야 한다. 이는 전통적인 교육 시스템을 넘어서 온라인 학습, 직업 훈련 프로그램, 계속 교육 과정 등 다양한 형태의 교육을 포함할 수 있다.</p>
+</section>
+<section id="인공지능과-노동의-미래에-대한-심층적-전망" class="level3" data-number="6.5.3">
+<h3 data-number="6.5.3" class="anchored" data-anchor-id="인공지능과-노동의-미래에-대한-심층적-전망"><span class="header-section-number">6.5.3</span> 인공지능과 노동의 미래에 대한 심층적 전망</h3>
+<p>인공지능(AI)과 노동의 상호작용은 앞으로 수십 년 동안 우리 사회와 경제에 광범위하고 깊이 있는 영향을 미칠 것이다. 이 변화의 파도는 일부 직업을 사라지게 하거나 근본적으로 변화시킬 것이며, 동시에 새로운 직업과 기회를 창출할 것으로 보인다. 이러한 변화는 우리에게 도전을 제시할 뿐만 아니라, 적절하게 대응한다면 무한한 가능성을 열어줄 기회로도 작용할 수 있다. 즉, 인공지능의 발전은 생산성 향상, 혁신 촉진, 삶의 질 개선과 같은 긍정적인 잠재력을 가지고 있는 동시에 불평등의 심화, 직업 안정성의 감소, 윤리적 및 사회적 문제와 같은 도전도 함께 제기하고 있다.</p>
+</section>
+</section>
+<section id="더-읽을-거리와-생각해-볼-문제" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="더-읽을-거리와-생각해-볼-문제"><span class="header-section-number">6.6</span> 더 읽을 거리와 생각해 볼 문제</h2>
+<section id="더-읽을-거리-2023년-미국-작가-조합-파업" class="level3" data-number="6.6.1">
+<h3 data-number="6.6.1" class="anchored" data-anchor-id="더-읽을-거리-2023년-미국-작가-조합-파업"><span class="header-section-number">6.6.1</span> 더 읽을 거리: 2023년 미국 작가 조합 파업</h3>
+<blockquote class="blockquote">
+<p>2023년 5월 2일부터 9월 27일까지 148일 동안 진행된 미국 작가 조합 파업은 인공지능과 노동의 관계에 대한 중요한 시사점을 제공한다. 파업의 주요 쟁점은 인공지능의 발전으로 인해 작가들의 일자리가 위협받을 수 있다는 우려였다. 작가 조합은 인공지능을 활용한 콘텐츠 제작을 규제하고, 작가들의 최저임금을 인상하는 등의 요구를 했다.</p>
+<p>파업은 148일 만에 잠정 합의로 종결되었다. 합의안에는 인공지능을 활용한 콘텐츠 제작에 대한 규제 강화, 작가들의 최저임금 인상, 작가들의 단체교섭권 강화 등이 포함되었다.</p>
+<p>이 파업은 인공지능이 노동시장에 미치는 영향에 대한 노동자들의 우려를 반영한 것이다. 인공지능은 노동의 생산성을 높이고 새로운 일자리를 창출하기도 하지만, 기존 일자리를 대체하기도 한다. 따라서 인공지능과 노동의 관계를 조화롭게 발전시키기 위해서는 인공지능의 부정적 영향에 대한 대책을 마련하는 것이 필요하다.</p>
+<p>2023년 미국 작가 조합(WGA) 파업은 디지털 시대의 복잡한 노동 문제를 상징하는 중요한 사건이다. 이 파업은 OTT 시장의 확장과 작가들의 업무량 증가에도 불구하고 임금이 줄어들었다는 불만에서 시작되었다. 이와 관련하여, 작가들은 재방료 기준 확립, 원고료와 출연료 인상, AI를 통한 인력 감축 철회 등을 요구했다. 특히, AI 기술의 발전이 각본 작업에 미치는 영향과 OTT 드라마의 재방료 문제는 논쟁의 핵심이었다.</p>
+</blockquote>
+</section>
+<section id="인공지능과-노동의-쟁점" class="level3" data-number="6.6.2">
+<h3 data-number="6.6.2" class="anchored" data-anchor-id="인공지능과-노동의-쟁점"><span class="header-section-number">6.6.2</span> 인공지능과 노동의 쟁점</h3>
+<p>인공지능과 노동의 관계에 대한 쟁점은 크게 두 가지로 나눌 수 있다.</p>
+<ul>
+<li>첫 번째 쟁점은 인공지능이 노동시장에 미치는 영향에 대한 것이다. 인공지능이 노동의 생산성을 높이고 새로운 일자리를 창출하기도 하지만, 기존 일자리를 대체하기도 한다. 따라서 인공지능이 노동시장에 미치는 영향에 대한 분석은 매우 중요하다.</li>
+<li>두 번째 쟁점은 인공지능과 노동의 관계를 조화롭게 발전시키기 위한 방안에 대한 것이다. 인공지능과 노동의 관계를 조화롭게 발전시키기 위해서는 인공지능의 부정적 영향에 대한 대책을 마련하는 것이 필요하다. 또한, 인공지능을 활용한 새로운 일자리를 창출하기 위한 노력도 필요하다.</li>
+</ul>
+</section>
+<section id="생각해-볼-문제-2023년-미국-작가-조합-파업과-관련하여" class="level3" data-number="6.6.3">
+<h3 data-number="6.6.3" class="anchored" data-anchor-id="생각해-볼-문제-2023년-미국-작가-조합-파업과-관련하여"><span class="header-section-number">6.6.3</span> 생각해 볼 문제: 2023년 미국 작가 조합 파업과 관련하여</h3>
+<p>기술 발전과 창작 환경: 2023년 미국 작가 조합 파업에서 작가들은 AI의 사용을 제한하고, OTT 드라마의 재방료 문제를 제기했다. 이러한 요구는 기술 발전이 창작 환경에 어떤 영향을 미치는지에 대한 중요한 질문을 제기한다.</p>
+<ul>
+<li>기술의 발전이 창작자의 권리와 수익을 어떻게 변화시키고 있는지, 그리고 이에 대한 공정한 해결책은 무엇이라고 생각하는가?</li>
+</ul>
+<section id="디지털-시대의-재방료와-로열티" class="level4" data-number="6.6.3.1">
+<h4 data-number="6.6.3.1" class="anchored" data-anchor-id="디지털-시대의-재방료와-로열티"><span class="header-section-number">6.6.3.1</span> 디지털 시대의 재방료와 로열티</h4>
+<ul>
+<li>OTT 시대의 등장으로 전통적인 재방송 개념이 사라졌고, 작가들의 수익 구조에 변화가 생겼다. 이러한 변화 속에서 작가와 창작자들의 재방료와 로열티를 어떻게 보호하고 보장해야 할까?</li>
+<li>또한, OTT 플랫폼이 작품별 조회수와 같은 데이터를 공개하지 않는 것에 대해 어떻게 생각하는가? 노동 운동과 기술 변화에 대한 대응: 미국 작가 조합의 파업은 기술 변화에 대응하는 노동 운동의 중요한 사례이다. 미래에 기술의 변화가 더욱 가속화될 것으로 예상될 때,</li>
+<li>노동 운동이나 기타 사회적 운동이 이러한 변화에 어떻게 효과적으로 대응해야 한다고 생각하는가?</li>
+<li>또한, 노동자의 권리 보호를 위해 어떤 전략이 필요할까?</li>
+</ul>
+</section>
+<section id="food-for-thoughts" class="level4" data-number="6.6.3.2">
+<h4 data-number="6.6.3.2" class="anchored" data-anchor-id="food-for-thoughts"><span class="header-section-number">6.6.3.2</span> Food for thoughts</h4>
+<ul>
+<li>2023년 미국 작가 조합 파업의 결과는 인공지능과 노동의 관계에 어떤 영향을 미쳤을까?</li>
+<li>인공지능이 노동시장에 미치는 영향에 대해 긍정적, 부정적 측면을 각각 생각해 보자.</li>
+<li>인공지능과 노동의 관계를 조화롭게 발전시키기 위한 방안을 제시해 보자.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="부록" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="부록"><span class="header-section-number">6.7</span> 7. 부록</h2>
+<p>본 챕터는 아래 노션 페이지에서 확인 가능하며, 계속해서 내용이 수정, 보완될 예정입니다. 내용과 문법에 오류가 있으면 코멘트 달아주시고, 아래 메일 주소로 보내주시면 감사하겠습니다.</p>
+<p>https://www.notion.so/cjleeskku/32a45c406c9d4390b90df16fe2a14641?pvs=4</p>
+<p>메일 주소: changjunlee@skku.edu</p>
+</section>
+<section id="참고문헌" class="level2" data-number="6.8">
+<h2 data-number="6.8" class="anchored" data-anchor-id="참고문헌"><span class="header-section-number">6.8</span> 8. 참고문헌</h2>
+<p>길은선·송영진·신위뢰 (2019). &lt;고용 없는 성장의 특성 및 산업별 분석&gt; (연구보고서 2019-913). 산업연구원.</p>
+<p>김세움 (2015). &lt;기술진보에 따른 노동시장 변화와 대응&gt;. 한국노동연구원.</p>
+<p>민순홍 (2023). &lt;플랫폼 노동 선택의 결정 요인과 플랫폼 종사자의 직업 이동 경로 분석&gt; (연구자료 2023-01). 산업연구원.</p>
+<p>박가열‧천영민‧홍성민‧손양수 (2016). &lt;기술변화에 따른 일자리 영향 연구&gt;. 한국고용정보원.</p>
+<p>이금노 (2018). &lt;인공지능 알고리즘 기반 경제에서의 소비자문제 연구&gt; (정책연구 18-17). 한국소비자원.</p>
+<p>이문호 (2020). 4차 산업혁명을 둘러싼 쟁점들 -’노동사회학적 관점’에서-. 노동연구, 40, 47-86.</p>
+<p>장진희·노성철·현종화 (2022). &lt;플랫폼노동의 알고리즘 현황과 대응방안 - 알고리즘의 공정성과 투명성, 노동자 통제를 중심으로&gt; (연구총서 2022-08). 한국노총중앙연구원.</p>
+<p>최병록 (2017). &lt;4차 산업혁명시대의 소비자이슈와 소비자정책&gt;. 한국기술혁신학회 추계학술대회.</p>
+<p>한국마케팅연구원 (2022). AI 기술과 초개인화 서비스. &lt;마케팅 2022&gt;, 56권 8호, 26-36.</p>
+<p>허민영·임병권 (2021). &lt;코로나 이후 디지털 전환 가속화에 따른 소비자정책 방향 연구&gt; (정책연구 21-01). 한국소비자원.</p>
+<p>Acemoglu, D., &amp; P. Restrepo. (2018). The race between man and machine: Implications of technology for growth, factor shares, and employment. American Economic Review, 108(6), 1488-1542.</p>
+<p>Balsmeier, B., &amp; M. Woerter. (2019). Is this time different? How digitalization influences job creation and destruction. Research Policy, 48(8), 103765. https://doi.org/10.1016/j.respol.2019.03.010.</p>
+<p>Charles, K.K., E. Hurst, &amp; M.J. Notowidigdo (2013). Manufacturing decline, housing booms, and non-employment, Technical Report, NBER Working Paper, 18949, National Bureau of Economic Research.</p>
+<p>Frey, C.B. and M.A.&nbsp;Osborne (2017), “The future of employment: How susceptible are jobs to computerisation?,” Technological Forecasting &amp; Social Change, 114, 254-280.</p>
+<p>Gal, M., &amp; Elkin-Koren, N. (2017). Algorithmic Contracts.Harvard Journal of Law and Technology,30, 309.</p>
+<p>Picht, P. G., &amp; Freund, B. (2018). Competition (law) in the era of algorithms.Max Planck Institute for Innovation &amp; Competition Research Paper, (18-10).</p>
+
+
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p><a href="https://www.philips.com/a-w/about/news/archive/features/2022/20221124-10-real-world-examples-of-ai-in-healthcare.html">10 real-world examples of AI in healthcare</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://builtin.com/artificial-intelligence/ai-manufacturing-robots-automation">11 AI in Manufacturing Examples to Know | Built In</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://spectrum.ieee.org/how-ibms-deep-blue-beat-world-champion-chess-player-garry-kasparov">How IBM’s Deep Blue Beat World Champion Chess Player Garry Kasparov</a> <a href="https://mashable.com/article/google-s-alphago-wins-final-go-game-against-lee-sedol">Google’s AlphaGo wins final Go game against Lee Sedol</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><a href="https://www.aitimes.com/news/articleView.html?idxno=154845">딥마인드, 단백질 생성 AI ‘알파폴드’ 최신 버전 공개</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><a href="https://www.autodesk.com/design-make/articles/ai-in-manufacturing">AI in Manufacturing: How It’s Used and Why It’s Important for Future Factories</a> <a href="https://capacity.com/learn/ai-chatbots/benefits-of-chatbots-in-customer-service/">The Top 5 Benefits of Using Chatbots in Customer Service Teams</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><a href="https://resources.workable.com/tutorial/10-new-jobs-created-with-ai">10 new jobs created with AI in the workplace</a><a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><a href="https://www.mk.co.kr/news/business/9535718">[Biz Focus] AI가 회계사 대체한다고?…오히려 귀한몸 된다 - 매일경제</a><a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p><a href="https://www2.deloitte.com/xe/en/insights/economy/generative-ai-impact-on-jobs.html">Generative AI and the labor market: A case for techno-optimism</a><a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "복사완료!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "복사완료!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./ineq.html" class="pagination-link" aria-label="인공지능과 사회불평등">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">인공지능과 사회불평등</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./copy.html" class="pagination-link" aria-label="인공지능과 저작권 -무엇을 보호해야 하는가">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">인공지능과 저작권 -무엇을 보호해야 하는가</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
