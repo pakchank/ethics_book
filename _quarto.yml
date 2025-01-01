@@ -5,7 +5,7 @@ lang: ko-KR
 
 book:
   title: "인공지능 시대의 윤리 또는 윤리적 인공지능 - 기술, 정책, 철학"
-  author: "김상호, 박대민, 박선희, 박찬경, 사영준, 유용민, 이정현, 이창준, 이혜온"
+  author: "김상호, 박대민, 박선희, 박찬경, 사영준, 엄남현, 유용민, 윤장렬, 이정현, 이창준, 이혜온"
   date: today
   chapters:
     - index.qmd
@@ -23,6 +23,10 @@ book:
         - copy.qmd
         - psych.qmd
     - part: third.qmd
+      chapters:
+        - journalism.qmd
+        - ad.qmd
+    - part: fourth.qmd
       chapters:
         - fml.qmd
         - xai.qmd
